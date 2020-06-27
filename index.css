@@ -1,0 +1,491 @@
+/*font for page*/
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100 !important;
+    font-display: swap;
+}
+
+ul
+li {
+    display: inline;
+    font-size: 1em !important;
+    font-display: swap;
+}
+
+.parallax {
+    position: relative;
+    background-size: cover;
+    width: 100%;
+}
+
+.blk-btn {
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0px;
+    padding: 10px 50px 10px 50px;
+    background-color: transparent;
+    font-size: 1.4em;
+    font-display: swap;
+}
+
+.blk-btn:hover {
+    background-color: black;
+    color: white;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    transition: 0.6s;
+}
+
+.blk-btn:focus,
+.blk-btn:active {
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0px;
+    background-color: black;
+    font-size: 1.4em;
+    font-display: swap;
+}
+
+.btn-white {
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0px;
+    padding: 10px 50px 10px 50px;
+    background-color: transparent;
+    font-size: 1.4em;
+    font-weight: 100;
+    font-display: swap;
+}
+
+.btn-white:hover {
+    background-color: white;
+    color: black;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    transition: 0.6s;
+}
+
+.btn-white:focus,
+.btn-white:active {
+    color: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 0px;
+    background-color: white;
+    font-size: 1.4em;
+    font-display: swap;
+}
+
+/*css for nav*/
+.navbar {
+    background-color: white;
+    min-height: 100px !important;
+    border-bottom-color: transparent !important;
+}
+
+.navbar a {margin-top: 15px !important;}
+
+.navbar-toggle {margin-top: 25px !important;}
+
+a:hover { text-decoration: none !important;}
+
+a:active {
+    text-decoration: none !important;
+    border: none !important;
+}
+
+a:focus {
+    outline: 0 !important;
+    text-decoration: none !important;
+    border: none !important;
+}
+
+/*css for jumbotron*/
+.bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/bg.webp);
+    height: 550px;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    margin-top: 75px;
+}
+
+.bg h1 {
+    color: white;
+    font-size: 4em;
+    text-transform: uppercase;
+    margin-top: 150px;
+    font-display: swap;
+}
+
+.bg i {
+    padding-left: 8px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+/*css for about*/
+.about {margin-top: 100px;}
+
+.about h1 {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.375rem 2.125rem 0.5rem;
+    color: white;
+    background-color: #242424;
+    margin-top: 75px;
+}
+
+.about .row {margin-top: 50px;}
+
+.about p {
+    color: #818181;
+    font-size: 1.2em;
+    border-width: thin;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: black;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-display: swap;
+}
+
+.skill-item {margin-top: 15px;}
+
+.about .progress-title {color: #818181;}
+
+.about .progress {
+    border-radius: 0px;
+    height: 3px;
+}
+
+.about .progress-bar {background-color: black;}
+
+/*css for services*/
+.services {margin-top: 100px;}
+
+.services h1 {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.375rem 2.125rem 0.5rem;
+    color: white;
+    background-color: #242424;
+    margin-top: 75px;
+}
+
+.services .row {
+    border-width: thin;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: black;
+    margin-top: 50px;
+}
+
+.services i {
+    border-style: solid;
+    border-width: thin;
+    background-color: transparent;
+    border-color: black;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 15px;
+}
+
+.services i:hover {
+    color: white;
+    background-color: #242424;
+}
+
+/*css for facts*/
+.facts {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/facts.webp);
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 550px;
+    margin-top: 100px;
+    color: white;
+}
+
+.facts h1 {
+    color: white;
+    border-width: thin;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: white;
+    padding-left: 15px;
+    margin-top: 100px;
+}
+
+.facts .row {margin-top: 100px;}
+
+.facts i {
+    color: white;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: thin;
+    background-color: transparent;
+    border-color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+/*css for edu*/
+.edu {margin-top: 100px;}
+
+.edu h1 {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.375rem 2.125rem 0.5rem;
+    color: white;
+    background-color: #242424;
+    margin-top: 75px;
+}
+
+.edu .row {
+
+    margin-top: 50px;
+}
+
+.edu i {
+    border-width: thin;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: black;
+    padding-left: 15px;
+}
+
+.edu h3 {
+    font-weight: 100;
+    font-display: swap;
+}
+
+/*css for jobs*/
+.jobs {margin-top: 100px;}
+
+.jobs h1 {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.375rem 2.125rem 0.5rem;
+    color: white;
+    background-color: #242424;
+    margin-top: 75px;
+}
+
+.jobs .row {
+    margin-top: 50px;
+}
+
+.jobs i {
+    border-width: thin;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: black;
+    padding-left: 15px;
+}
+
+.jobs h3 {
+    font-weight: 100;
+    font-display: swap;
+}
+
+/*css for clients*/
+.clients {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/clients.webp);
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 750px;
+    margin-top: 100px;
+}
+
+.clients h1 {
+    color: white;
+    border-width: thin;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: white;
+    padding-left: 15px;
+    margin-top: 100px;
+}
+
+.clients .row:nth-child(2) {margin-top: 75px;}
+
+.clients .row:nth-child(3) {margin-top: 25px;}
+
+.clients .box {
+    width: 350px;
+    margin-bottom: 75px;
+    height: 150px;
+    background-color: white;
+    border-radius: 0px;
+    border-style: solid;
+    border-width: thick;
+    border-top-color: black;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding-left: 15px;
+}
+
+.clients p {
+    margin-top: 15px;
+}
+
+/*css for works*/
+.works {margin-top: 100px;}
+
+.works h1 {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.375rem 2.125rem 0.5rem;
+    color: white;
+    background-color: #242424;
+    margin-top: 75px;
+}
+
+.works .row {
+    border-width: thin;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: black;
+    margin-top: 100px;
+}
+
+/*css for contact*/
+.contact {margin-top: 100px;}
+
+.contact h1 {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.375rem 2.125rem 0.5rem;
+    color: white;
+    background-color: #242424;
+    margin-top: 75px;
+}
+
+.contact .row {margin-top: 50px;}
+
+.form-group input {
+    border-radius: 0;
+    box-shadow: none;
+    border-style: none none solid;
+    border-color: -moz-use-text-color -moz-use-text-color white;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -webkit-appearance: none;
+    outline: none;
+    height: 50px;
+}
+
+.form-group input:active, .form-group input:focus {
+    color: black;
+    border-color: -moz-use-text-color -moz-use-text-color black;
+}
+
+.email {margin-top: 25px;} 
+
+.form-group .msg {
+    border-radius: 0;
+    box-shadow: none;
+    border-style: none none solid;
+    border-color: -moz-use-text-color -moz-use-text-color white;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -webkit-appearance: none;
+    outline: none;
+    height: 150px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.form-group .msg:active, .form-group .msg:focus {
+    color: black;
+    border-color: -moz-use-text-color -moz-use-text-color black;
+}
+
+/*css for airquality widget*/
+
+#airquality {
+    display: block;
+    position: absolute;
+    width: 33vw;
+    top: 30vh;
+    right: 5vw;
+}
+
+/*css for Google Maps*/
+#map {
+    height: 470px;
+    background-color: #CCC;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #242424;
+    color: white;
+    height: 100px;
+}
+
+footer h1 {
+    font-size: 1.4em;
+    margin-top: 50px;
+    font-display: swap;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active {
+    color: currentColor;
+}
+
+footer i {
+    color: #242424;
+    order-style: solid;
+    border-width: thin;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: white;
+    opacity: 0.5;
+    padding-top: 8px;
+    margin-top: 50px;
+}

@@ -1,0 +1,6 @@
+[28-Feb-2019 23:12:05 UTC] PHP Warning:  mysqli::mysqli(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/giosalge/public_html/speedtest/telemetry/telemetry.php on line 17
+[28-Feb-2019 23:12:05 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/giosalge/public_html/speedtest/telemetry/telemetry.php on line 17
+[28-Feb-2019 23:12:05 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/giosalge/public_html/speedtest/telemetry/telemetry.php on line 18
+[28-Feb-2019 23:12:55 UTC] PHP Warning:  mysqli::mysqli(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/giosalge/public_html/speedtest/telemetry/telemetry.php on line 17
+[28-Feb-2019 23:12:55 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/giosalge/public_html/speedtest/telemetry/telemetry.php on line 17
+[28-Feb-2019 23:12:55 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/giosalge/public_html/speedtest/telemetry/telemetry.php on line 18

@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: giosal.ge
+Token: 07f8d34abfe253abcd5ef66078e603fab48efb59d32488443b3ae2a14b885bdf

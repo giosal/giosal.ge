@@ -1,0 +1,39 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^giosal.ge$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.giosal.ge$
+RewriteRule ^/?$ "https\:\/\/giosal\.ge\/" [R=301,L]
+RedirectPermanent en/index.php https://giosal.ge/index.html
+RedirectPermanent blog/2015/11/ https://giosal.ge/blog
+RedirectPermanent blog/2015/11/15/ https://giosal.ge/blog
+RedirectPermanent en/cities.php https://giosal.ge/index.html
+RedirectPermanent en/contact.php https://giosal.ge/index.html
+RedirectPermanent img/blank.jpg https://giosal.ge/index.html
+RedirectPermanent ka/contact.html https://giosal.ge/index.html
+RedirectPermanent blog/category/uncategorized/ https://giosal.ge/blog/index.php/category/uncategorized/
+RedirectPermanent blog/feed/ https://giosal.ge/blog/index.php/feed/
+RedirectPermanent blog/author/admin/ https://giosal.ge/blog/index.php/author/giosal/
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Images
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+
+  # Video
+  ExpiresByType video/mp4 "access plus 1 year"
+  ExpiresByType video/mpeg "access plus 1 year"
+
+  # CSS, JavaScript
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+
+  # Others
+  ExpiresByType application/pdf "access plus 1 month"
+  ExpiresByType application/x-shockwave-flash "access plus 1 month"
+</IfModule>

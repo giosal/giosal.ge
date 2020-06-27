@@ -1,0 +1,58 @@
+@media (max-width: 1199px) {
+    .clients .box {
+        width: 250px;
+    }
+}
+
+@media (max-width: 991px) {
+    .skills {
+        margin-top: 25px;    
+    }
+    
+    .facts {
+        height: 700px;
+    }
+    
+    .facts h5 {
+        margin-bottom: 15px;
+    }
+    
+    .clients {
+        height: 1200px;
+    }
+    
+    #map {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .facts {
+        height: 1000px;
+    }
+    
+    .clients {
+        height: 1650px;
+    }
+    
+    .clients .box {
+        width: 100%;
+    }
+    
+    .works img {
+        margin-top: 25px;
+    }
+
+}
+
+@media (max-width: 656px) {
+    .bg h1 {
+        font-size: 3.5em;
+    }
+}
+
+@media (max-width: 577px) {
+    .bg h1 {
+        margin-top: 100px;
+    }
+}

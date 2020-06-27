@@ -1,0 +1,2748 @@
+body { margin: 0px; padding: 0px; font-family:'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif; /*overflow-x:hidden;*/ }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+/*div { position: absolute; }*/
+
+#content-container { display: block; position: relative; width: 100vw; /*padding-bottom: 312.5%;*/ overflow: hidden;  }
+
+#_bg__menukit_landingpage {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 6000px;
+    background:rgba(255,255,255,255);
+}
+
+a:visited {
+    color:#57616e;
+    text-decoration: none;
+}
+
+a:link {
+    color:#57616e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.owl-carousel {
+    /*height: 100% !important;*/
+    /*padding-bottom: 50.63856960408685%;*/
+    overflow: hidden;
+    width: 100%;
+    /*width: 80vw;*/
+}
+
+.owl-carousel .owl-item div {
+    display: block;
+    height: 100%;
+    /*width: auto;*/
+}
+
+.owl-carousel .owl-stage-outer {
+    height: 100%!important;
+    /*padding-bottom: 50.63856960408685%;*/
+}
+
+.owl-stage-outer * {
+    height:100%;
+    /*padding-bottom: 50.63856960408685%;*/
+}
+
+.owl-stage {
+    /*height: 100vh;*/
+}
+
+#sidebarMenu {
+    height: auto;
+    position: fixed;
+    left: 0%;
+    width: 100%;
+    margin-top: 15%;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+    background: #ffffff;
+}
+.sidebarMenuInner{
+    margin:0;
+    padding:0;
+    /*height: auto;*/
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+.sidebarMenuInner li{
+    list-style: none;
+    color: #fff;
+    padding: 5%;
+    font-size: 4.5vw;
+    font-weight: 400;
+    height: 24%;
+    cursor: pointer;
+    border: 1px solid #e6e6e6;
+}
+
+input[type="checkbox"]:checked ~ #sidebarMenu {
+    transform: translateX(0);
+}
+
+input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+}
+.sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 32%;
+    width: 7%;
+    top: 34%;
+    left: 85%;
+    color: #2d3a4b;
+}
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 17%;
+    width: 100%;
+    background-color: #2d3a4b;
+}
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 17%;
+}
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+}
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 17%;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 1vh;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -1vh;
+}
+
+
+.register_button {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.33vw;
+    font-weight: 700;
+    text-align: center;
+    color:#ffffff;
+    -ms-border-radius: 10vw;
+    -o-border-radius: 10vw;
+    -moz-border-radius: 10vw;
+    -webkit-border-radius: 10vw;
+    border-radius: 10vw;
+    -ms-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
+    background:rgba(95,111,255,255);
+}
+
+.register_button:hover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.33vw;
+    font-weight: 700;
+    text-align: center;
+    color:#ffffff;
+    -ms-border-radius: 10vw;
+    -o-border-radius: 10vw;
+    -moz-border-radius: 10vw;
+    -webkit-border-radius: 10vw;
+    border-radius: 10vw;
+    -ms-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
+    background:#0544cb;
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+    /*height: 80px;*/
+    padding-bottom: 16%;
+}
+
+#rectangle_142 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+}
+
+.selected {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+#select {
+    color:#5f6fff;
+}
+
+#select:hover {
+    text-decoration: underline;
+}
+
+#login {
+    position: absolute;
+    display: none;
+    top: 25%;
+    left: 75%;
+    width: 6.25vw;
+    height: 50%;
+}
+
+#language {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    width: 15%;
+    height: 40%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 4.17vw;
+    color:#5f6fff;
+}
+
+.header_login {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 0.9523809523809523vw;
+    font-weight: 700;
+    text-align: center;
+    color:#5f6fff;
+    -ms-border-radius: 5.2vw;
+    -o-border-radius: 5.2vw;
+    -moz-border-radius: 5.2vw;
+    -webkit-border-radius: 5.2vw;
+    border-radius: 5.2vw;
+    border: 2px solid #5f6fff;
+    background:rgba(255,255,255,0);
+}
+
+.header_login:hover {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 0.9523809523809523vw;
+    font-weight: 700;
+    text-align: center;
+    color:#ffffff;
+    -ms-border-radius: 5.2vw;
+    -o-border-radius: 5.2vw;
+    -moz-border-radius: 5.2vw;
+    -webkit-border-radius: 5.2vw;
+    border-radius: 5.2vw;
+    border: 2px solid #5f6fff;
+    background:#5f6fff;
+}
+
+#logotype_menukit {
+    position: absolute;
+    top: 30%;
+    left: 9.07%;
+    width: 26.6%;
+    height: 40%;
+}
+
+#menukit_ek1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+    text-align: center;
+    color:#d2bc88;
+}
+
+#home {
+    color:#d2bc88;
+}
+
+#home:hover {
+    text-decoration: none;
+}
+
+#ellipse_323 {
+    position: absolute;
+    top: 0%;
+    left: -143.4666666666667%;
+    width: 385.0666666666667%;
+    padding-bottom: 215.2%;
+    z-index: -1;
+    background-image: linear-gradient(to top, #f8f8f4 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+#hero_teaser {
+    position: relative;
+    /*top: -1.33%;*/
+    margin-top: 17%;
+    left: 0px;
+    width: 100%;
+    /*height: 1080px;*/
+    padding-bottom: 188.2666666666667%;
+}
+
+#hero_mobile {
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 3.6%;
+    width: 92.8%;
+}
+
+#der_schnellste_weg__um_deinen_wareneinsatz_optimal_zu_berechnen_ {
+    position: absolute;
+    top: 5%;
+    left: 4.1%;
+    width: 90%;
+    height: 20.5%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 8vw;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    color:#2d3a4b;
+    z-index: 1;
+}
+
+#cta_1 {
+    position: absolute;
+    top: 75.1%;
+    left: 45.16%;
+    width: 9.7%;
+    height: 5.5%;
+}
+
+#first_register {
+    position: absolute;
+    top: 78.1%;
+    left: 25.1%;
+    width: 49.8%;
+    height: 5%;
+}
+
+#logo_hero_teaser {
+    position: absolute;
+    top: 88.7%;
+    left: 0%;
+    width: 100%;
+    /*height: 6.1%;*/
+}
+
+#logo_maultasche_2 {
+    position: absolute;
+    top: 0px;
+    left: 5.33%;
+    width: 16.5%;
+    /*height: 45.3623046875px;*/
+}
+
+#logosplash {
+    position: absolute;
+    top: 0px;
+    left: 28.5%;
+    width: 15.7%;
+    /*height: 40px;*/
+}
+
+#jolesch_logo {
+    position: absolute;
+    top: 0px;
+    left: 50.9%;
+    width: 8.3%;
+    /*height: 54.434814453125px;*/
+}
+
+#logo {
+    position: absolute;
+    top: 0px;
+    left: 65.8%;
+    width: 7.4%;
+    /*height: 65.32177734375px;*/
+}
+
+#logo_prinzipal {
+    position: absolute;
+    top: 0px;
+    left: 80%;
+    width: 12.5%;
+    /*height: 54.434814453125px;*/
+}
+
+#teaser_2_withmenukit {
+    /*top: 1176px;*/
+    position: relative;
+    left: 0px;
+    margin-top: 5vh;
+    width: 100%;
+    /*height: 793px;*/
+    padding-bottom: 250%;
+}
+
+#nomenukit {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+#illustration_1___no_menukit {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+#rectangle_193 {
+    position: absolute;
+    top: 0px;
+    left: -8.5%;
+    width: 117%;
+    height: 100%;
+    z-index: -1;
+
+    background: -webkit-linear-gradient(-0.083392500469486deg , rgba(255,255,255,0) 0%, rgba(246,242,231,255) 22%, rgba(251,251,247,255) 97%, rgba(251,251,248,255) 100%);
+    background: -o-linear-gradient(-0.083392500469486deg , rgba(255,255,255,0) 0%, rgba(246,242,231,255) 22%, rgba(251,251,247,255) 97%, rgba(251,251,248,255) 100%);
+    background: -moz-linear-gradient(-0.083392500469486deg , rgba(255,255,255,0) 0%, rgba(246,242,231,255) 22%, rgba(251,251,247,255) 97%, rgba(251,251,248,255) 100%);
+    background: -ms-linear-gradient(-0.083392500469486deg , rgba(255,255,255,0) 0%, rgba(246,242,231,255) 22%, rgba(251,251,247,255) 97%, rgba(251,251,248,255) 100%);
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, #f6f2e7 22%, #fbfbf8 100%);
+}
+
+#mask_group_90 {
+    position: absolute;
+    top: 8.125%;
+    left: 20%;
+    width: 60%;
+    /*height: 622px;*/
+}
+
+#content___no_menukit {
+    position: absolute;
+    top: 50.2%;
+    left: 0%;
+    width: 100%;
+    height: 49.8%;
+}
+
+#rectangle_196 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:rgba(255,255,255,255);
+}
+
+#herk_mmliche__berechnung {
+    position: absolute;
+    top: 0%;
+    left: 9.6%;
+    width: 80.8%;
+    height: 11.52%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.58vw;
+    font-weight: 500;
+    line-height: 1.181818181818182;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#group_1975 {
+    position: absolute;
+    top: 22.2%;
+    left: 20%;
+    width: 65%;
+    height: 77.8%;
+}
+
+#h_ndische_und_langwierige_kalkulation {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 21.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#zeitaufw_ndige_verwaltung_von_einkaufspreisen {
+    position: absolute;
+    top: 23%;
+    left: 0px;
+    width: 100%;
+    height: 21.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#komplizierte_rezept__und_men_verwaltung {
+    position: absolute;
+    top: 47%;
+    left: 0px;
+    width: 100%;
+    height: 21.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#ungenaue_kalkulation_von_verkaufspreisen {
+    position: absolute;
+    top: 72%;
+    left: 0px;
+    width: 100%;
+    height: 21.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#group_1988 {
+    position: absolute;
+    top: 22.2%;
+    left: 9.6%;
+    width: 4%;
+    height: 77.8%;
+}
+
+#group_1981 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 7.5%;
+}
+
+#line_46 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#line_47 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#group_1982 {
+    position: absolute;
+    top: 25%;
+    left: 0px;
+    width: 100%;
+    height: 7.5%;
+}
+
+#line_46_ek1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#line_47_ek1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#group_1983 {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 100%;
+    height: 7.5%;
+}
+
+#line_46_ek2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#line_47_ek2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#group_1984 {
+    position: absolute;
+    top: 75%;
+    left: 0px;
+    width: 100%;
+    height: 7.5%;
+}
+
+#line_46_ek3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#line_47_ek3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#withmenukit {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+#illustration_1___menukit {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+#rectangle_193_2 {
+    position: absolute;
+    top: 0px;
+    left: -8.5%;
+    width: 117%;
+    height: 100%;
+    z-index: -1;
+
+    background: -webkit-linear-gradient(-0.083392500469486deg , rgba(255,255,255,0) 0%, rgba(246,242,231,255) 22%, rgba(251,251,247,255) 97%, rgba(251,251,248,255) 100%);
+    background: -o-linear-gradient(-0.083392500469486deg , rgba(255,255,255,0) 0%, rgba(246,242,231,255) 22%, rgba(251,251,247,255) 97%, rgba(251,251,248,255) 100%);
+    background: -moz-linear-gradient(-0.083392500469486deg , rgba(255,255,255,0) 0%, rgba(246,242,231,255) 22%, rgba(251,251,247,255) 97%, rgba(251,251,248,255) 100%);
+    background: -ms-linear-gradient(-0.083392500469486deg , rgba(255,255,255,0) 0%, rgba(246,242,231,255) 22%, rgba(251,251,247,255) 97%, rgba(251,251,248,255) 100%);
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, #f6f2e7 22%, #fbfbf8 100%);
+}
+
+#mask_group_90_2 {
+    position: absolute;
+    top: 8.125%;
+    left: 20%;
+    width: 60%;
+    /*height: 622px;*/
+}
+
+#content___menukit {
+    position: absolute;
+    top: 50.2%;
+    left: 0%;
+    width: 100%;
+    height: 49.8%;
+}
+
+#rectangle_196_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:rgba(255,255,255,255);
+}
+
+#herk_mmliche__berechnung_2 {
+    position: absolute;
+    top: 0%;
+    left: 9.6%;
+    width: 80.8%;
+    height: 11.52%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.58vw;
+    font-weight: 500;
+    line-height: 1.181818181818182;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#group_1975_2 {
+    position: absolute;
+    top: 21%;
+    left: 20%;
+    width: 57%;
+    height: 85%;
+}
+
+#h_ndische_und_langwierige_kalkulation_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 19.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#zeitaufw_ndige_verwaltung_von_einkaufspreisen_2 {
+    position: absolute;
+    top: 20%;
+    left: 0px;
+    width: 100%;
+    height: 19.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#komplizierte_rezept__und_men_verwaltung_2 {
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    width: 100%;
+    height: 19.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#ungenaue_kalkulation_von_verkaufspreisen_2 {
+    position: absolute;
+    top: 60%;
+    left: 0px;
+    width: 100%;
+    height: 19.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#ungenaue_kalkulation_von_verkaufspreisen_3 {
+    position: absolute;
+    top: 80%;
+    left: 0px;
+    width: 100%;
+    height: 19.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#group_1988_2 {
+    position: absolute;
+    top: 22.2%;
+    left: 9.6%;
+    width: 4%;
+    height: 85%;
+}
+
+#group_1981_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 7.5%;
+}
+
+#line_46_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#line_47_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#group_1982_2 {
+    position: absolute;
+    top: 20%;
+    left: 0px;
+    width: 100%;
+    height: 7.5%;
+}
+
+#line_46_ek1_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#line_47_ek1_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#group_1983_2 {
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    width: 100%;
+    height: 7.5%;
+}
+
+#line_46_ek2_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#line_47_ek2_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#group_1984_2 {
+    position: absolute;
+    top: 60%;
+    left: 0px;
+    width: 100%;
+    height: 7.5%;
+}
+
+#line_46_ek3_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#line_47_ek3_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#group_1985_2 {
+    position: absolute;
+    top: 80%;
+    left: 0px;
+    width: 100%;
+    height: 7.5%;
+}
+
+#line_46_ek4_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#line_47_ek4_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+#cards {
+    position: relative;
+    /*top: 2064px;*/
+    margin-top: 5vh;
+    left: 0%;
+    width: 100%;
+    /*height: 363.16796875px;*/
+    /*padding-bottom: 18.90625%;*/
+}
+
+#cards_carousel {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    /*height: 100%*/
+}
+
+#card_1 {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 99%;
+}
+
+#rectangle_1602 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background:rgba(255,255,255,255);
+}
+
+#group_838 {
+    position: absolute;
+    top: 5.2%;
+    left: 10%;
+    width: 80%;
+    height: 45%;
+}
+
+#rectangle_223 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+    background: -webkit-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: -o-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: -moz-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: -ms-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+}
+
+#mask_group_74 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    /*height: 167.05786132812px;*/
+}
+
+#__p____kalkuliere_ein_rezept_in_nur_1_20_min_ {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 80%;
+    height: 40%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.222222222222222;
+    color:#2d3a4b;
+}
+
+#card_2 {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 99%;
+}
+
+#rectangle_1603 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background:rgba(255,255,255,255);
+}
+
+#group_839 {
+    position: absolute;
+    top: 5.2%;
+    left: 10%;
+    width: 80%;
+    height: 52.6%;
+}
+
+#rectangle_223_ek4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+    background: -webkit-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: -o-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: -moz-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: -ms-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+}
+
+#mask_group_92 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 100%;*/
+}
+
+#__p____verbessere_deinen_wareneinsatz_um_durchschnittlich_15_ {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 80%;
+    height: 40%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.222222222222222;
+    color:#2d3a4b;
+}
+
+#card_3 {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 99%;
+}
+
+#rectangle_1604 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background:rgba(255,255,255,255);
+}
+
+#group_840 {
+    position: absolute;
+    top: 5.2%;
+    left: 10%;
+    width: 80%;
+    height: 52.6%;
+}
+
+#rectangle_223_ek1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+    background: -webkit-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: -o-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: -moz-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: -ms-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+}
+
+#mask_group_93 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 100%;*/
+}
+
+#__p____tagesaktuelle_metropreise {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 80%;
+    height: 40%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.222222222222222;
+    color:#2d3a4b;
+}
+
+#card_4 {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 99%;
+}
+
+#rectangle_1605 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background:rgba(255,255,255,255);
+}
+
+#group_1901 {
+    position: absolute;
+    top: 5.2%;
+    left: 10%;
+    width: 80%;
+    height: 52.6%;
+}
+
+#rectangle_223_ek2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+    background: -webkit-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: -o-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: -moz-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: -ms-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+}
+
+#mask_group_94 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 100%;*/
+}
+
+#__p__automatische_berechnung_des_optimalen_verkaufspreises__f_r_ein_rezept {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 80%;
+    height: 40%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.222222222222222;
+    color:#2d3a4b;
+}
+
+#card_5 {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 99%;
+}
+
+#rectangle_1641 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background:rgba(255,255,255,255);
+}
+
+#group_1946 {
+    position: absolute;
+    top: 5.2%;
+    left: 10%;
+    width: 80%;
+    height: 52.6%;
+}
+
+#rectangle_223_ek3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+
+    background: -webkit-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: -o-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: -moz-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: -ms-linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+    background: linear-gradient(-180deg , rgba(248,248,244,255) 0%, rgba(255,255,255,255) 100%);
+}
+
+#group_95 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 100%;*/
+}
+
+#__p____zentralisierte_rezeptsammlung {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 80%;
+    height: 40%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.222222222222222;
+    color:#2d3a4b;
+}
+
+
+#teaser_3_feature_1 {
+    /*top: 2547px;*/
+    position: relative;
+    margin-top: 10vh;
+    left: 0%;
+    width: 100%;
+    /*height: 10%;*/
+    /*padding-bottom: 151.7333333333333%;*/
+}
+
+
+#teaser_3_1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#rectangle_230 {
+    position: relative;
+    top: 18.3%;
+    left: -0.6%;
+    width: 101.2%;
+    height: 70%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:rgba(248,248,244,255);
+}
+
+#content_feature_1 {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
+
+.nav1 {
+    position: absolute;
+    top: 33%;
+    left: 30%;
+    width: 40%;
+    height: 1%;
+}
+
+#nav1_1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 20%;
+}
+
+#nav1_2 {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    width: 20%;
+}
+
+#nav1_3 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 20%;
+}
+
+#nav1_4 {
+    position: absolute;
+    top: 0%;
+    left: 75%;
+    width: 20%;
+}
+
+#__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku {
+    position: absolute;
+    top: 39%;
+    left: 0%;
+    width: 100%;
+    height: 14%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.58vw;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.25;
+    color:#2d3a4b;
+}
+
+#behalte_text {
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.33vw;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.666666666666667;
+    color:#2d3a4b;
+}
+
+#mehr_erfahren {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 30%;
+    height: 6.6%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.33vw;
+    font-weight: 700;
+    text-align: left;
+    color:#5f6fff;
+}
+
+#feature_1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 32.5%;
+}
+
+#group_1954 {
+    position: absolute;
+    top: 0%;
+    left: 13.35%;
+    width: 73.3%;
+    height: 100%;
+}
+
+#rectangle_1642 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    -o-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    -webkit-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    -moz-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    box-shadow: 0 6px 24px rgba(45, 58, 75, 0.2);
+    background:rgba(255,255,255,255);
+}
+
+#screen_1_2x {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 100%;*/
+}
+
+#group_1952 {
+    position: absolute;
+    top: 32.5%;
+    left: 9.6%;
+    width: 15%;
+    height: 37.6%;
+}
+
+#exclusion_1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 88.82275390625px;*/
+}
+
+#teaser_3_2 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#rectangle_230_2 {
+    position: relative;
+    top: 18.3%;
+    left: -0.6%;
+    width: 101.2%;
+    height: 70%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:rgba(248,248,244,255);
+}
+
+#nav1_5 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 20%;
+}
+
+#nav1_6 {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    width: 20%;
+}
+
+#nav1_7 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 20%;
+}
+
+#nav1_8 {
+    position: absolute;
+    top: 0%;
+    left: 75%;
+    width: 20%;
+}
+
+#content_feature_1_2 {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
+
+#__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku_2 {
+    position: absolute;
+    top: 39%;
+    left: 0%;
+    width: 100%;
+    height: 14%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.58vw;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.25;
+    color:#2d3a4b;
+}
+
+#behalte_text_2 {
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.33vw;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.666666666666667;
+    color:#2d3a4b;
+}
+
+#mehr_erfahren_link {
+    color:#5f6fff;
+}
+
+#mehr_erfahren_link_2 {
+    color:#5f6fff;
+}
+#mehr_erfahren_link_3 {
+    color:#5f6fff;
+}
+#mehr_erfahren_link_4 {
+    color:#5f6fff;
+}
+
+#mehr_erfahren_2 {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 30%;
+    height: 6.6%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.33vw;
+    font-weight: 700;
+    text-align: left;
+    color:#5f6fff;
+}
+
+#feature_1_2 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 32.5%;
+}
+
+#group_1954_2 {
+    position: absolute;
+    top: 0%;
+    left: 13.35%;
+    width: 73.3%;
+    height: 100%;
+}
+
+#rectangle_1642_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    -o-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    -webkit-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    -moz-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    box-shadow: 0 6px 24px rgba(45, 58, 75, 0.2);
+    background:rgba(255,255,255,255);
+}
+
+#screen_1_2x_2 {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    /*height: 104%;*/
+}
+
+#group_1952_2 {
+    position: absolute;
+    top: 32.5%;
+    left: 9.6%;
+    width: 15%;
+    height: 37.6%;
+}
+
+#exclusion_1_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 88.82275390625px;*/
+}
+
+#teaser_3_3 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#rectangle_230_3 {
+    position: relative;
+    top: 18.3%;
+    left: -0.6%;
+    width: 101.2%;
+    height: 70%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:rgba(248,248,244,255);
+}
+
+#content_feature_1_3 {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
+
+#nav1_9 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 20%;
+}
+
+#nav1_10 {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    width: 20%;
+}
+
+#nav1_11 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 20%;
+}
+
+#nav1_12 {
+    position: absolute;
+    top: 0%;
+    left: 75%;
+    width: 20%;
+}
+
+#__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku_3 {
+    position: absolute;
+    top: 39%;
+    left: 0%;
+    width: 100%;
+    height: 14%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.58vw;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.25;
+    color:#2d3a4b;
+}
+
+#behalte_text_3 {
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.33vw;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.666666666666667;
+    color:#2d3a4b;
+}
+
+#mehr_erfahren_3 {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 30%;
+    height: 6.6%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.33vw;
+    font-weight: 700;
+    text-align: left;
+    color:#5f6fff;
+}
+
+#feature_1_3 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 32.5%;
+}
+
+#group_1954_3 {
+    position: absolute;
+    top: 0%;
+    left: 13.35%;
+    width: 73.3%;
+    height: 100%;
+}
+
+#rectangle_1642_3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    -o-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    -webkit-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    -moz-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    box-shadow: 0 6px 24px rgba(45, 58, 75, 0.2);
+    background:rgba(255,255,255,255);
+}
+
+#screen_1_2x_3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 100%;*/
+}
+
+#group_1952_3 {
+    position: absolute;
+    top: 32.5%;
+    left: 9.6%;
+    width: 15%;
+    height: 37.6%;
+}
+
+#exclusion_1_3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 88.82275390625px;*/
+}
+
+#teaser_3_4 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#rectangle_230_4 {
+    position: relative;
+    top: 18.3%;
+    left: -0.6%;
+    width: 101.2%;
+    height: 70%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:rgba(248,248,244,255);
+}
+
+#content_feature_1_4 {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
+
+#nav1_13 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 20%;
+}
+
+#nav1_14 {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    width: 20%;
+}
+
+#nav1_15 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 20%;
+}
+
+#nav1_16 {
+    position: absolute;
+    top: 0%;
+    left: 75%;
+    width: 20%;
+}
+
+#__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku_4 {
+    position: absolute;
+    top: 39%;
+    left: 0%;
+    width: 100%;
+    height: 14%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.58vw;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.25;
+    color:#2d3a4b;
+}
+
+#behalte_text_4 {
+    position: absolute;
+    top: 52%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.33vw;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.666666666666667;
+    color:#2d3a4b;
+}
+
+#mehr_erfahren_4 {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    width: 30%;
+    height: 6.6%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.33vw;
+    font-weight: 700;
+    text-align: left;
+    color:#5f6fff;
+}
+
+#feature_1_4 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 32.5%;
+}
+
+#group_1954_4 {
+    position: absolute;
+    top: 0%;
+    left: 13.35%;
+    width: 73.3%;
+    height: 100%;
+}
+
+#rectangle_1642_4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    -o-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    -webkit-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    -moz-box-shadow:0 6px 24px rgba(45, 58, 75, 0.2);
+    box-shadow: 0 6px 24px rgba(45, 58, 75, 0.2);
+    background:rgba(255,255,255,255);
+}
+
+#screen_1_2x_4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 100%;*/
+}
+
+#group_1952_4 {
+    position: absolute;
+    top: 32.5%;
+    left: 9.6%;
+    width: 12%;
+    height: 37.6%;
+}
+
+#exclusion_1_4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 88.82275390625px;*/
+}
+
+
+#testimonials {
+    /*top: 3819px;*/
+    position: relative;
+    margin-top: 5vh;
+    left: -20%;
+    width: 140%;
+    /*height: 670px;*/
+    /*padding-bottom: 34.89583333333333%;*/
+}
+
+#testimonials_carousel {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+#testimonial_1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 99%;
+}
+
+#rectangle_1606 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background:rgba(255,255,255,255);
+}
+
+#testimonial_1_image {
+    position: absolute;
+    top: 4%;
+    left: 27.5%;
+    width: 45%;
+    height: auto;
+}
+
+#group_669 {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 100%;
+    height: 14.8%;
+}
+
+#testimonial_1_name {
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    width: 40%;
+    height: 65%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.75vw;
+    font-weight: 500;
+    text-align: center;
+    color: #2d3a4b;
+}
+
+#testimonial_1_rest {
+    position: absolute;
+    top: 70%;
+    left: 0px;
+    width: 100%;
+    height: 35%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.2vw;
+    font-weight: 700;
+    text-align: center;
+    color: #d2bc88;
+}
+
+#testimonial_1_city {
+    position: absolute;
+    top: 90%;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.2vw;
+    font-weight: 400;
+    text-align: center;
+    color: #707070;
+}
+
+#testimonial_1_text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 90%;
+    height: 50%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4vw;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.29;
+    color:#2d3a4b;
+}
+
+#testimonial_1_stars {
+    position: absolute;
+    top: 92%;
+    left: 30%;
+    width: 40%;
+    height: 4%;
+}
+
+#path_157 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 18%;
+    /*height: 20px;*/
+}
+
+#path_158 {
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    width: 18%;
+    /*height: 20px;*/
+}
+
+#path_159 {
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    width: 18%;
+    /*height: 20px;*/
+}
+
+#path_160 {
+    position: absolute;
+    top: 0px;
+    left: 60%;
+    width: 18%;
+    /*height: 20px;*/
+}
+
+#path_161 {
+    position: absolute;
+    top: 0px;
+    left: 80%;
+    width: 18%;
+    /*height: 20px;*/
+}
+
+#testimonial_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 99%;
+}
+
+#rectangle_1607 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background:rgba(255,255,255,255);
+}
+
+#testimonial_2_image {
+    position: absolute;
+    top: 4%;
+    left: 27.5%;
+    width: 45%;
+    height: auto;
+}
+
+#group_796 {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 100%;
+    height: 14.8%;
+}
+
+#testimonial_2_name {
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    width: 60%;
+    height: 65%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.75vw;
+    font-weight: 500;
+    text-align: center;
+    color: #2d3a4b;
+}
+
+#testimonial_2_rest {
+    position: absolute;
+    top: 70%;
+    left: 0px;
+    width: 100%;
+    height: 35%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.2vw;
+    font-weight: 700;
+    text-align: center;
+    color: #d2bc88;
+}
+
+#testimonial_2_city {
+    position: absolute;
+    top: 90%;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.2vw;
+    font-weight: 400;
+    text-align: center;
+    color: #707070;
+}
+
+#testimonial_2_text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 90%;
+    height: 50%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4vw;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.29;
+    color:#2d3a4b;
+}
+
+#testimonial_2_stars {
+    position: absolute;
+    top: 92%;
+    left: 30%;
+    width: 40%;
+    height: 4%;
+}
+
+#path_157_ek1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 18%;
+    /*height: 20px;*/
+}
+
+#path_158_ek1 {
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    width: 18%;
+    /*height: 20px;*/
+}
+
+#path_159_ek1 {
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    width: 18%;
+    /*height: 20px;*/
+}
+
+#path_160_ek1 {
+    position: absolute;
+    top: 0px;
+    left: 60%;
+    width: 18%;
+    /*height: 20px;*/
+}
+
+#path_161_ek1 {
+    position: absolute;
+    top: 0px;
+    left: 80%;
+    width: 18%;
+    /*height: 20px;*/
+}
+
+#testimonial_3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 99%;
+}
+
+#rectangle_1608 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background:rgba(255,255,255,255);
+}
+
+#testimonial_3_image {
+    position: absolute;
+    top: 4%;
+    left: 27.5%;
+    width: 45%;
+    height: auto;
+}
+
+#group_801 {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 100%;
+    height: 14.8%;
+}
+
+#testimonial_3_name {
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    width: 80%;
+    height: 65%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.75vw;
+    font-weight: 500;
+    text-align: center;
+    color: #2d3a4b;
+}
+
+#testimonial_3_rest {
+    position: absolute;
+    top: 70%;
+    left: 0px;
+    width: 100%;
+    height: 35%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.2vw;
+    font-weight: 700;
+    text-align: center;
+    color: #d2bc88;
+}
+
+#testimonial_3_city {
+    position: absolute;
+    top: 90%;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.2vw;
+    font-weight: 400;
+    text-align: center;
+    color: #707070;
+}
+
+#testimonial_3_text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 90%;
+    height: 50%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4vw;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.29;
+    color:#2d3a4b;
+}
+
+#testimonial_3_stars {
+    position: absolute;
+    top: 92%;
+    left: 30%;
+    width: 40%;
+    height: 4%;
+}
+
+#path_157_ek2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 18%;
+    /*height: 20px;*/
+}
+
+#path_158_ek2 {
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    width: 18%;
+    /*height: 20px;*/
+}
+
+#path_159_ek2 {
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    width: 18%;
+    /*height: 20px;*/
+}
+
+#path_160_ek2 {
+    position: absolute;
+    top: 0px;
+    left: 60%;
+    width: 18%;
+    /*height: 20px;*/
+}
+
+#path_161_ek2 {
+    position: absolute;
+    top: 0px;
+    left: 80%;
+    width: 18%;
+    /*height: 20px;*/
+}
+
+
+#quote {
+    /*top: 3268px;*/
+    position: relative;
+    margin-top: 1.1vh;
+    left: 0%;
+    width: 100%;
+    /*height: 324px;*/
+    padding-bottom: 56.25%;
+}
+
+#video_sample {
+    position: absolute;
+    top: 0%;
+    left: 9.6%;
+    width: 80.8%;
+    height: 80.8%;
+}
+
+
+#teaser_end {
+    /*top: 4611px;*/
+    position: relative;
+    margin-top: 5vh;
+    left: 0%;
+    width: 100%;
+    padding-bottom: 125%;
+}
+
+#content_ending {
+    position: absolute;
+    top: 0px;
+    left: 9.6%;
+    width: 80.8%;
+    height: 68.85%;
+}
+
+#group_2136 {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#hole_dir_jetzt_kostenlos_das_menukit_und_spare_wertvolle_zeit_ {
+    position: absolute;
+    top: 0px;
+    left: 16.7%;
+    width: 66.6%;
+    height: 18%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.58vw;
+    font-weight: 500;
+    line-height: 1.181818181818182;
+    text-align: center;
+    color:#2d3a4b;
+}
+
+#__p__die_genaue_berechnung_des_wareneinsatzes_in_der_gastronomie_ist_ausschlaggebend__um_ein_profitables_gesch_ft_zu_f_hren__kleinste_fehler_k_nnen_hierbei_unsummen_an_kosten_verursachen__das_menukit_ist_eine_software__welche_gastronomen_genau_bei_dieser_kalkul {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 90%;
+    height: 60%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.33vw;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.375;
+    color:#2d3a4b;
+}
+
+#make_your_life_easy_register {
+    position: absolute;
+    top: 80%;
+    left: 25.2%;
+    width: 49.6%;
+    height: 10%;
+}
+
+#illustration_end {
+    position: absolute;
+    top: 65%;
+    left: 0px;
+    width: 100%;
+    height: 30%;
+}
+
+#ipad_menukit_2x {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    /*height: 393px;*/
+}
+
+
+#footer {
+    /*top: 5337px;*/
+    position: relative;
+    margin-top: 1.6vh;
+    left: 0vw;
+    width: 100%;
+    /*height: 663px;*/
+    padding-bottom: 111.4666666666667%;
+}
+#footer_ek1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#base {
+    position: absolute;
+    top: 79.28333333333333%;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    /*height: 663px;*/
+}
+
+#links {
+    position: absolute;
+    top: 33%;
+    left: 51.2%;
+    width: 30%;
+    height: 30.2%;
+}
+
+#kontakt_agb_datenschutz_impressum {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.33vw;
+    font-weight: 500;
+    line-height: 2.5;
+    text-align: left;
+    color:#57616e;
+}
+
+#info {
+    position: absolute;
+    top: 88.5%;
+    left: 40%;
+    width: 20%;
+    height: 3.2%;
+}
+
+#___menukit_2019 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;;
+    font-size: 2.22vw;
+    font-weight: 400;
+    text-align: center;
+    color:#c0c3c9;
+}
+
+#hd_logo {
+    position: absolute;
+    top: 49%;
+    left: 9.6%;
+    width: 30%;
+    /*height: 73.15869140625px;*/
+}
+
+#menukit {
+    position: absolute;
+    top: 31.8%;
+    left: 9.6%;
+    width: 26.6%;
+    height: 6.7%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 5vw;
+    font-weight: 700;
+    text-align: left;
+    color:#57616e;
+}
+
+
+#line_48 {
+    position: absolute;
+    top: 11.2%;
+    left: 0%;
+    width: 100%;
+    height: 1px;
+}
+
+
+#line_49 {
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    width: 100%;
+    height: 1px;
+}
+
+#batch_deutsch {
+    position: absolute;
+    top: 0%;
+    left: 37.6%;
+    width: 24.8%;
+    /*height: 144.1796875px;*/
+}
+
+
+#base_ek1 {
+    position: absolute;
+    top: 88.95%;
+    left: -0.26%;
+    width: 100.05%;
+    height: 9.6%;
+}
+
+
+#ellipse_325 {
+    position: absolute;
+    top: 67.25%;
+    left: -20.5%;
+    width: 141%;
+    height: 18.7%;
+    -ms-border-radius: 1374px / 561.5px;
+    -o-border-radius: 1374px / 561.5px;
+    -moz-border-radius: 1374px / 561.5px;
+    -webkit-border-radius: 1374px / 561.5px;
+    border-radius: 1374px / 561.5px;
+    z-index: -2;
+
+    /*-ms-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    transform:rotate(180deg);*/
+
+    background: -webkit-linear-gradient(0.17075930273093deg , rgba(248,248,244,255) 0%, rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(0.17075930273093deg , rgba(248,248,244,255) 0%, rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(0.17075930273093deg , rgba(248,248,244,255) 0%, rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(0.17075930273093deg , rgba(248,248,244,255) 0%, rgba(255,255,255,0) 100%);
+    background-image: linear-gradient(180deg, #f8f8f4 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+#ellipse_324 {
+    position: absolute;
+    top: 19.6%;
+    left: -414px;
+    width: 2748px;
+    height: 1123px;
+    z-index: -1;
+    -ms-border-radius: 1374px / 561.5px;
+    -o-border-radius: 1374px / 561.5px;
+    -moz-border-radius: 1374px / 561.5px;
+    -webkit-border-radius: 1374px / 561.5px;
+    border-radius: 1374px / 561.5px;
+
+    background: -webkit-linear-gradient(-0.35319327534155deg , rgba(248,248,244,255) 0%, rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(-0.35319327534155deg , rgba(248,248,244,255) 0%, rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(-0.35319327534155deg , rgba(248,248,244,255) 0%, rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(-0.35319327534155deg , rgba(248,248,244,255) 0%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(-0.35319327534155deg , rgba(248,248,244,255) 0%, rgba(255,255,255,0) 100%);
+}
+
+
+#path_1333 {
+    position: absolute;
+    top: 1080px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+}
+
+
+
+/* Add your custom CSS here */

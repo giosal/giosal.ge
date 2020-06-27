@@ -1,0 +1,2397 @@
+body { margin: 0px; padding: 0px; font-family:'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif; /*overflow-x:hidden;*/ }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+/*div { position: absolute; }*/
+
+#content-container { display: block; position: relative; width: 100vw; /*padding-bottom: 312.5%;*/ overflow: hidden;  }
+
+#_bg__cockpit_landingpage {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 6000px;
+    background:rgba(255,255,255,255);
+}
+
+#bg1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 16.5%;
+    background-image: linear-gradient(180deg, #f5f9fc 0%, #ffffff 10%, #ffffff 90%, #f5f9fc 100%);
+}
+
+#bg2 {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    width: 100%;
+    height: 18%;
+    background-image: linear-gradient(180deg, #f5f9fc 0%, #ffffff 31%, #ffffff 66%, #f5f9fc 100%);
+}
+
+#bg3 {
+    position: absolute;
+    top: 67.41%;
+    left: 0%;
+    width: 100%;
+    height: 17.55%;
+    background-image: linear-gradient(180deg, #f5f9fc 0%, #ffffff 31%, #ffffff 66%, #f5f9fc 100%);
+}
+
+a:visited {
+    color: #57616e;
+    text-decoration: none;
+}
+
+a:link {
+    color:#57616e;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.owl-carousel {
+    /*height: 100% !important;*/
+    /*padding-bottom: 50.63856960408685%;*/
+    overflow: hidden;
+    width: 100%;
+    /*width: 80vw;*/
+}
+
+.owl-carousel .owl-item div {
+    display: block;
+    height: 100%;
+    /*width: auto;*/
+}
+
+.owl-carousel .owl-stage-outer {
+    height: 100%!important;
+    /*padding-bottom: 50.63856960408685%;*/
+}
+
+.owl-stage-outer * {
+    height:100%;
+    /*padding-bottom: 50.63856960408685%;*/
+}
+
+.owl-stage {
+    /*height: 100vh;*/
+}
+
+#sidebarMenu {
+    height: auto;
+    position: fixed;
+    left: 0%;
+    width: 100%;
+    margin-top: 15%;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+    background: #ffffff;
+}
+.sidebarMenuInner{
+    margin:0;
+    padding:0;
+    /*height: auto;*/
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+.sidebarMenuInner li{
+    list-style: none;
+    color: #fff;
+    padding: 5%;
+    font-size: 4.5vw;
+    font-weight: 400;
+    height: 24%;
+    cursor: pointer;
+    border: 1px solid #e6e6e6;
+}
+
+input[type="checkbox"]:checked ~ #sidebarMenu {
+    transform: translateX(0);
+}
+
+input[type=checkbox] {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    display: none;
+}
+.sidebarIconToggle {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    height: 32%;
+    width: 7%;
+    top: 34%;
+    left: 85%;
+    color: #2d3a4b;
+}
+.spinner {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: absolute;
+    height: 17%;
+    width: 100%;
+    background-color: #2d3a4b;
+}
+.horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 17%;
+}
+.diagonal.part-1 {
+    position: relative;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    float: left;
+}
+.diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 17%;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    opacity: 0;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(135deg);
+    margin-top: 1vh;
+}
+input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    transform: rotate(-135deg);
+    margin-top: -1vh;
+}
+
+
+.register_button {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.73vw;
+    font-weight: 700;
+    text-align: center;
+    color:#ffffff;
+    -ms-border-radius: 5.2vw;
+    -o-border-radius: 5.2vw;
+    -moz-border-radius: 5.2vw;
+    -webkit-border-radius: 5.2vw;
+    border-radius: 5.2vw;
+    -ms-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
+    background-color: #ff5252;
+}
+
+.register_button:hover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.73vw;
+    font-weight: 700;
+    text-align: center;
+    color:#ffffff;
+    -ms-border-radius: 5.2vw;
+    -o-border-radius: 5.2vw;
+    -moz-border-radius: 5.2vw;
+    -webkit-border-radius: 5.2vw;
+    border-radius: 5.2vw;
+    -ms-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
+    background-color: #ff1744;
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+    /*height: 80px;*/
+    padding-bottom: 16%;
+}
+
+#rectangle_142 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e6e6e6;
+    background-color: #ffffff;
+}
+
+.selected {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+#select {
+    color: #00838f;
+}
+
+#select:hover {
+    text-decoration: underline;
+}
+
+#login {
+    position: absolute;
+    display: none;
+    top: 25%;
+    left: 75%;
+    width: 6.25vw;
+    height: 50%;
+}
+
+#language {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    width: 15%;
+    height: 40%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 4.17vw;
+    color: #00838f;
+}
+
+.header_login {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 0.9523809523809523vw;
+    font-weight: 700;
+    text-align: center;
+    color:#5f6fff;
+    -ms-border-radius: 5.2vw;
+    -o-border-radius: 5.2vw;
+    -moz-border-radius: 5.2vw;
+    -webkit-border-radius: 5.2vw;
+    border-radius: 5.2vw;
+    border: 2px solid #5f6fff;
+    background:rgba(255,255,255,0);
+}
+
+.header_login:hover {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 0.9523809523809523vw;
+    font-weight: 700;
+    text-align: center;
+    color:#ffffff;
+    -ms-border-radius: 5.2vw;
+    -o-border-radius: 5.2vw;
+    -moz-border-radius: 5.2vw;
+    -webkit-border-radius: 5.2vw;
+    border-radius: 5.2vw;
+    border: 2px solid #5f6fff;
+    background:#5f6fff;
+}
+
+#cockpit_logo {
+    position: absolute;
+    top: 10%;
+    left: 8.8%;
+    width: 32.53%;
+    height: 80%;
+}
+
+
+#hero_teaser {
+    position: relative;
+    /*top: -1.33%;*/
+    margin-top: 17%;
+    left: 0px;
+    width: 100%;
+    /*height: 1080px;*/
+    padding-bottom: 200.5333333333333%;
+}
+
+#hero_illustration {
+    display: block;
+    position: absolute;
+    top: 53.45%;
+    left: 0%;
+    width: 100%;
+}
+
+#hero_text {
+    position: absolute;
+    top: 4.5%;
+    left: 11.8%;
+    width: 76.4%;
+    height: 23.94%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 8vw;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    color: #0b3954;
+    z-index: 1;
+}
+
+#das_cockpit {
+    position: absolute;
+    top: 31.25%;
+    left: 9.5%;
+    width: 81%;
+    height: 11.17%;
+    overflow: hidden;
+    font-family: 'Rubik', sans-serif;
+    font-size: 4.8vw;
+    font-weight: 400;
+    line-height: 1.22;
+    text-align: center;
+    color: #2d3a4b;
+    z-index: 1;
+}
+
+#first_register {
+    position: absolute;
+    top: 44.41%;
+    left: 25.2%;
+    width: 49.6%;
+    height: 5.32%;
+}
+
+#sponsor_logo {
+    position: absolute;
+    top: 90.55%;
+    left: 9.6%;
+    width: 80.8%;
+}
+
+#teaser_2_withcockpit {
+    /*top: 1176px;*/
+    position: relative;
+    left: 0px;
+    margin-top: 0vh;
+    width: 100%;
+    /*height: 793px;*/
+    padding-bottom: 275%;
+}
+
+#nocockpit {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+#illustration_1___no_cockpit {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+#mask_group_90 {
+    position: absolute;
+    top: 0%;
+    left: 13.73%;
+    width: 72.54%;
+    /*height: 622px;*/
+}
+
+#content___no_cockpit {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    height: 58.22%;
+}
+
+#rectangle_196 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:rgba(255,255,255,255);
+}
+
+#teaser_2_title_1 {
+    position: absolute;
+    top: 6.3%;
+    left: 11.3%;
+    width: 77.4%;
+    height: 16.21%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 5.87vw;
+    font-weight: 500;
+    line-height: 1.18;
+    text-align: left;
+    color: #0b3954;
+}
+
+#group_1975 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 70%;
+    height: 61.8%;
+}
+
+#teaser_2_text_1_1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 21.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#teaser_2_text_1_2 {
+    position: absolute;
+    top: 23%;
+    left: 0px;
+    width: 100%;
+    height: 21.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#teaser_2_text_1_3 {
+    position: absolute;
+    top: 47%;
+    left: 0px;
+    width: 100%;
+    height: 21.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#teaser_2_text_1_4 {
+    position: absolute;
+    top: 72%;
+    left: 0px;
+    width: 100%;
+    height: 21.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#group_1988 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 3.2%;
+    height: 61.8%;
+}
+
+#group_1981 {
+    position: absolute;
+    top: 2%;
+    left: 0px;
+    width: 100%;
+    height: 6%;
+}
+
+#line_46 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#line_47 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#group_1982 {
+    position: absolute;
+    top: 25%;
+    left: 0px;
+    width: 100%;
+    height: 6%;
+}
+
+#line_46_ek1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#line_47_ek1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#group_1983 {
+    position: absolute;
+    top: 49.5%;
+    left: 0px;
+    width: 100%;
+    height: 6%;
+}
+
+#line_46_ek2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#line_47_ek2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#group_1984 {
+    position: absolute;
+    top: 73.5%;
+    left: 0px;
+    width: 100%;
+    height: 6%;
+}
+
+#line_46_ek3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#line_47_ek3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#withcockpit {
+    position: absolute;
+    top: 47%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+#illustration_1___cockpit {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+#mask_group_90_2 {
+    position: absolute;
+    top: 0%;
+    left: 13.73%;
+    width: 72.54%;
+    /*height: 622px;*/
+}
+
+#content___cockpit {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    width: 100%;
+    height: 58.22%;
+}
+
+#rectangle_196_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:rgba(255,255,255,255);
+}
+
+#teaser_2_title_2 {
+    position: absolute;
+    top: 6.3%;
+    left: 10%;
+    width: 85%;
+    height: 16.21%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 5.87vw;
+    font-weight: 500;
+    line-height: 1.18;
+    text-align: left;
+    color: #0b3954;
+}
+
+#group_1975_2 {
+    position: absolute;
+    top: 33%;
+    left: 20%;
+    width: 70%;
+    height: 61.8%;
+}
+
+#teaser_2_text_2_1 {
+    position: absolute;
+    top: 3%;
+    left: 0px;
+    width: 100%;
+    height: 19.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#teaser_2_text_2_2 {
+    position: absolute;
+    top: 20%;
+    left: 0px;
+    width: 100%;
+    height: 19.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#teaser_2_text_2_3 {
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    width: 100%;
+    height: 19.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#teaser_2_text_2_4 {
+    position: absolute;
+    top: 60%;
+    left: 0px;
+    width: 100%;
+    height: 19.2%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 400;
+    line-height: 1.222222222222222;
+    text-align: left;
+    color:#2d3a4b;
+}
+
+#group_1988_2 {
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    width: 3.2%;
+    height: 61.8%;
+}
+
+#group_1981_2 {
+    position: absolute;
+    top: 5%;
+    left: 0px;
+    width: 100%;
+    height: 6%;
+}
+
+#line_46_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#group_1982_2 {
+    position: absolute;
+    top: 23%;
+    left: 0px;
+    width: 100%;
+    height: 6%;
+}
+
+#line_46_ek1_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#group_1983_2 {
+    position: absolute;
+    top: 42%;
+    left: 0px;
+    width: 100%;
+    height: 6%;
+}
+
+#line_46_ek2_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#group_1984_2 {
+    position: absolute;
+    top: 62%;
+    left: 0px;
+    width: 100%;
+    height: 6%;
+}
+
+#line_46_ek3_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+#cards {
+    position: relative;
+    /*top: 2064px;*/
+    margin-top: 0vh;
+    left: 0%;
+    width: 100%;
+    /*height: 363.16796875px;*/
+    /*padding-bottom: 18.90625%;*/
+}
+
+#cards_carousel {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    /*height: 100%*/
+}
+
+#card_1 {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 99%;
+}
+
+#rectangle_1602 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background:rgba(255,255,255,255);
+}
+
+#group_838 {
+    position: absolute;
+    top: 3.3%;
+    left: 10%;
+    width: 80%;
+    height: 49.91%;
+}
+
+#rectangle_223 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#mask_group_74 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    /*height: 167.05786132812px;*/
+}
+
+#card_1_text {
+    position: absolute;
+    top: 64.54%;
+    left: 16.45%;
+    width: 67.1%;
+    height: 35%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.38;
+    color:#2d3a4b;
+}
+
+#card_2 {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 99%;
+}
+
+#rectangle_1603 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background:rgba(255,255,255,255);
+}
+
+#group_839 {
+    position: absolute;
+    top: 3.3%;
+    left: 10%;
+    width: 80%;
+    height: 49.91%;
+}
+
+#rectangle_223_ek4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#mask_group_92 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 100%;*/
+}
+
+#card_2_text {
+    position: absolute;
+    top: 64.54%;
+    left: 16.45%;
+    width: 67.1%;
+    height: 35%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.38;
+    color:#2d3a4b;
+}
+
+#card_3 {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 99%;
+}
+
+#rectangle_1604 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background:rgba(255,255,255,255);
+}
+
+#group_840 {
+    position: absolute;
+    top: 3.3%;
+    left: 10%;
+    width: 80%;
+    height: 49.91%;
+}
+
+#rectangle_223_ek1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#mask_group_93 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 100%;*/
+}
+
+#card_3_text {
+    position: absolute;
+    top: 64.54%;
+    left: 16.45%;
+    width: 67.1%;
+    height: 35%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.38;
+    color:#2d3a4b;
+}
+
+#card_4 {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 99%;
+}
+
+#rectangle_1605 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background:rgba(255,255,255,255);
+}
+
+#group_1901 {
+    position: absolute;
+    top: 3.3%;
+    left: 10%;
+    width: 80%;
+    height: 49.91%;
+}
+
+#rectangle_223_ek2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#mask_group_94 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 100%;*/
+}
+
+#card_4_text {
+    position: absolute;
+    top: 64.54%;
+    left: 16.45%;
+    width: 67.1%;
+    height: 35%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.75vw;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.38;
+    color:#2d3a4b;
+}
+
+
+#teaser_3_feature_1 {
+    /*top: 2547px;*/
+    position: relative;
+    margin-top: 10vh;
+    left: 0%;
+    width: 100%;
+    /*height: 10%;*/
+    /*padding-bottom: 151.7333333333333%;*/
+}
+
+
+#teaser_3_1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#content_feature_1 {
+    position: absolute;
+    top: 42.86%;
+    left: 10%;
+    width: 80%;
+    height: 57.14%;
+}
+
+.nav1 {
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    width: 60%;
+    height: 1%;
+}
+
+#n1_1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 13.5%;
+}
+
+#n1_2 {
+    position: absolute;
+    top: 0%;
+    left: 21.6%;
+    width: 13.5%;
+}
+
+#n1_3 {
+    position: absolute;
+    top: 0%;
+    left: 43.2%;
+    width: 13.5%;
+}
+
+#n1_4 {
+    position: absolute;
+    top: 0%;
+    left: 64.8%;
+    width: 13.5%;
+}
+
+#n1_5 {
+    position: absolute;
+    top: 0%;
+    left: 86.4%;
+    width: 13.5%;
+}
+
+#__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku {
+    position: absolute;
+    top: 9.5%;
+    left: 0%;
+    width: 100%;
+    height: 23.5%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 5.87vw;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.18;
+    color: #0b3954;
+}
+
+#behalte_text {
+    position: absolute;
+    top: 38.69%;
+    left: 0%;
+    width: 100%;
+    height: 38.4%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.27vw;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.38;
+    color:#2d3a4b;
+}
+
+#mehr_erfahren_link {
+    color: #ff5252;
+}
+
+#mehr_erfahren_link_2 {
+    color: #ff5252;
+}
+#mehr_erfahren_link_3 {
+    color: #ff5252;
+}
+#mehr_erfahren_link_4 {
+    color: #ff5252;
+}
+
+#mehr_erfahren_link_5 {
+    color: #ff5252;
+}
+
+#mehr_erfahren {
+    position: absolute;
+    top: 84.82%;
+    left: 0%;
+    width: 40%;
+    height: 6.6%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.27vw;
+    font-weight: 500;
+    text-align: left;
+    color:#ff5252;
+}
+
+#feature_1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 35.7%;
+}
+
+#group_1954 {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+}
+
+#screen_1_2x {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 100%;*/
+    box-shadow: 0 6px 24px rgba(45, 58, 75, 0.2);
+}
+
+#teaser_3_2 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#n1_6 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 13.5%;
+}
+
+#n1_7 {
+    position: absolute;
+    top: 0%;
+    left: 21.6%;
+    width: 13.5%;
+}
+
+#n1_8 {
+    position: absolute;
+    top: 0%;
+    left: 43.2%;
+    width: 13.5%;
+}
+
+#n1_9 {
+    position: absolute;
+    top: 0%;
+    left: 64.8%;
+    width: 13.5%;
+}
+
+#n1_10 {
+    position: absolute;
+    top: 0%;
+    left: 86.4%;
+    width: 13.5%;
+}
+
+#content_feature_1_2 {
+    position: absolute;
+    top: 42.86%;
+    left: 10%;
+    width: 80%;
+    height: 57.14%;
+}
+
+#__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku_2 {
+    position: absolute;
+    top: 9.5%;
+    left: 0%;
+    width: 100%;
+    height: 23.5%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 5.87vw;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.18;
+    color: #0b3954;
+}
+
+#behalte_text_2 {
+    position: absolute;
+    top: 38.69%;
+    left: 0%;
+    width: 100%;
+    height: 38.4%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.27vw;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.38;
+    color:#2d3a4b;
+}
+
+#mehr_erfahren_2 {
+    position: absolute;
+    top: 84.82%;
+    left: 0%;
+    width: 40%;
+    height: 6.6%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.27vw;
+    font-weight: 500;
+    text-align: left;
+    color:#ff5252;
+}
+
+#feature_1_2 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 35.7%;
+}
+
+#group_1954_2 {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+}
+
+#screen_1_2x_2 {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    /*height: 100%;*/
+    box-shadow: 0 6px 24px rgba(45, 58, 75, 0.2);
+}
+
+#teaser_3_3 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#content_feature_1_3 {
+    position: absolute;
+    top: 42.86%;
+    left: 10%;
+    width: 80%;
+    height: 57.14%;
+}
+
+#n1_11 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 13.5%;
+}
+
+#n1_12 {
+    position: absolute;
+    top: 0%;
+    left: 21.6%;
+    width: 13.5%;
+}
+
+#n1_13 {
+    position: absolute;
+    top: 0%;
+    left: 43.2%;
+    width: 13.5%;
+}
+
+#n1_14 {
+    position: absolute;
+    top: 0%;
+    left: 64.8%;
+    width: 13.5%;
+}
+
+#n1_15 {
+    position: absolute;
+    top: 0%;
+    left: 86.4%;
+    width: 13.5%;
+}
+
+#__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku_3 {
+    position: absolute;
+    top: 9.5%;
+    left: 0%;
+    width: 100%;
+    height: 23.5%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 5.87vw;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.18;
+    color: #0b3954;
+}
+
+#behalte_text_3 {
+    position: absolute;
+    top: 38.69%;
+    left: 0%;
+    width: 100%;
+    height: 38.4%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.27vw;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.38;
+    color:#2d3a4b;
+}
+
+#mehr_erfahren_3 {
+    position: absolute;
+    top: 84.82%;
+    left: 0%;
+    width: 40%;
+    height: 6.6%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.27vw;
+    font-weight: 500;
+    text-align: left;
+    color:#ff5252;
+}
+
+#feature_1_3 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 35.7%;
+}
+
+#group_1954_3 {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+}
+
+#screen_1_2x_3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 100%;*/
+    box-shadow: 0 6px 24px rgba(45, 58, 75, 0.2);
+}
+
+#group_1952_3 {
+    position: absolute;
+    top: 32.5%;
+    left: 9.6%;
+    width: 15%;
+    height: 37.6%;
+}
+
+#exclusion_1_3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 88.82275390625px;*/
+}
+
+#teaser_3_4 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#content_feature_1_4 {
+    position: absolute;
+    top: 42.86%;
+    left: 10%;
+    width: 80%;
+    height: 57.14%;
+}
+
+#n1_16 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 13.5%;
+}
+
+#n1_17 {
+    position: absolute;
+    top: 0%;
+    left: 21.6%;
+    width: 13.5%;
+}
+
+#n1_18 {
+    position: absolute;
+    top: 0%;
+    left: 43.2%;
+    width: 13.5%;
+}
+
+#n1_19 {
+    position: absolute;
+    top: 0%;
+    left: 64.8%;
+    width: 13.5%;
+}
+
+#n1_20 {
+    position: absolute;
+    top: 0%;
+    left: 86.4%;
+    width: 13.5%;
+}
+
+#__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku_4 {
+    position: absolute;
+    top: 9.5%;
+    left: 0%;
+    width: 100%;
+    height: 23.5%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 5.87vw;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.18;
+    color: #0b3954;
+}
+
+#behalte_text_4 {
+    position: absolute;
+    top: 38.69%;
+    left: 0%;
+    width: 100%;
+    height: 38.4%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.27vw;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.38;
+    color:#2d3a4b;
+}
+
+#mehr_erfahren_4 {
+    position: absolute;
+    top: 84.82%;
+    left: 0%;
+    width: 40%;
+    height: 6.6%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.27vw;
+    font-weight: 500;
+    text-align: left;
+    color:#ff5252;
+}
+
+#feature_1_4 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 35.7%;
+}
+
+#group_1954_4 {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+}
+
+#screen_1_2x_4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 100%;*/
+    box-shadow: 0 6px 24px rgba(45, 58, 75, 0.2);
+}
+
+#teaser_3_5 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#content_feature_1_5 {
+    position: absolute;
+    top: 42.86%;
+    left: 10%;
+    width: 80%;
+    height: 57.14%;
+}
+
+#n1_21 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 13.5%;
+}
+
+#n1_22 {
+    position: absolute;
+    top: 0%;
+    left: 21.6%;
+    width: 13.5%;
+}
+
+#n1_23 {
+    position: absolute;
+    top: 0%;
+    left: 43.2%;
+    width: 13.5%;
+}
+
+#n1_24 {
+    position: absolute;
+    top: 0%;
+    left: 64.8%;
+    width: 13.5%;
+}
+
+#n1_25 {
+    position: absolute;
+    top: 0%;
+    left: 86.4%;
+    width: 13.5%;
+}
+
+#__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku_5 {
+    position: absolute;
+    top: 9.5%;
+    left: 0%;
+    width: 100%;
+    height: 23.5%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 5.87vw;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.18;
+    color: #0b3954;
+}
+
+#behalte_text_5 {
+    position: absolute;
+    top: 38.69%;
+    left: 0%;
+    width: 100%;
+    height: 38.4%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.27vw;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.38;
+    color:#2d3a4b;
+}
+
+#mehr_erfahren_5 {
+    position: absolute;
+    top: 84.82%;
+    left: 0%;
+    width: 40%;
+    height: 6.6%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.27vw;
+    font-weight: 500;
+    text-align: left;
+    color:#ff5252;
+}
+
+#feature_1_5 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 35.7%;
+}
+
+#group_1954_5 {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+}
+
+#screen_1_2x_5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 100%;*/
+    box-shadow: 0 6px 24px rgba(45, 58, 75, 0.2);
+}
+
+
+#testimonials {
+    /*top: 3819px;*/
+    position: relative;
+    margin-top: 5vh;
+    left: -20%;
+    width: 140%;
+    /*height: 670px;*/
+    /*padding-bottom: 34.89583333333333%;*/
+}
+
+#testimonials_carousel {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+#testimonial_1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 99%;
+}
+
+#rectangle_1606 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background:rgba(255,255,255,255);
+}
+
+#testimonial_1_image {
+    position: absolute;
+    top: 4%;
+    left: 27.5%;
+    width: 45%;
+    height: auto;
+}
+
+#group_669 {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 100%;
+    height: 14.8%;
+}
+
+#testimonial_1_name {
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    width: 60%;
+    height: 42.85%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.75vw;
+    font-weight: 500;
+    text-align: center;
+    color: #2d3a4b;
+}
+
+#testimonial_1_rest {
+    position: absolute;
+    top: 60%;
+    left: 0px;
+    width: 100%;
+    height: 35%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.2vw;
+    font-weight: 700;
+    text-align: center;
+    color: #00838f;
+}
+
+#testimonial_1_city {
+    position: absolute;
+    top: 80%;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.2vw;
+    font-weight: 400;
+    text-align: center;
+    color: #707070;
+}
+
+#testimonial_1_text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 90%;
+    height: 50%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.73vw;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.29;
+    color:#2d3a4b;
+}
+
+#testimonial_1_stars {
+    position: absolute;
+    top: 92%;
+    left: 30%;
+    width: 40%;
+    height: 3.3%;
+}
+
+#path_157 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 20px;*/
+}
+
+#testimonial_2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 99%;
+}
+
+#rectangle_1607 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background:rgba(255,255,255,255);
+}
+
+#testimonial_2_image {
+    position: absolute;
+    top: 4%;
+    left: 27.5%;
+    width: 45%;
+    height: auto;
+}
+
+#group_796 {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 100%;
+    height: 14.8%;
+}
+
+#testimonial_2_name {
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    width: 60%;
+    height: 42.85%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.75vw;
+    font-weight: 500;
+    text-align: center;
+    color: #2d3a4b;
+}
+
+#testimonial_2_rest {
+    position: absolute;
+    top: 60%;
+    left: 0px;
+    width: 100%;
+    height: 35%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.2vw;
+    font-weight: 700;
+    text-align: center;
+    color: #00838f;
+}
+
+#testimonial_2_city {
+    position: absolute;
+    top: 80%;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.2vw;
+    font-weight: 400;
+    text-align: center;
+    color: #707070;
+}
+
+#testimonial_2_text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 90%;
+    height: 50%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.73vw;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.29;
+    color:#2d3a4b;
+}
+
+#testimonial_2_stars {
+    position: absolute;
+    top: 92%;
+    left: 30%;
+    width: 40%;
+    height: 3.3%;
+}
+
+#path_157_ek1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 20px;*/
+}
+
+#testimonial_3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 99%;
+}
+
+#rectangle_1608 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background:rgba(255,255,255,255);
+}
+
+#testimonial_3_image {
+    position: absolute;
+    top: 4%;
+    left: 27.5%;
+    width: 45%;
+    height: auto;
+}
+
+#group_801 {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 100%;
+    height: 14.8%;
+}
+
+#testimonial_3_name {
+    position: absolute;
+    top: 0px;
+    left: 20%;
+    width: 60%;
+    height: 65%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.75vw;
+    font-weight: 500;
+    text-align: center;
+    color: #2d3a4b;
+}
+
+#testimonial_3_rest {
+    position: absolute;
+    top: 60%;
+    left: 0px;
+    width: 100%;
+    height: 35%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.2vw;
+    font-weight: 700;
+    text-align: center;
+    color: #00838f;
+}
+
+#testimonial_3_city {
+    position: absolute;
+    top: 80%;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.2vw;
+    font-weight: 400;
+    text-align: center;
+    color: #707070;
+}
+
+#testimonial_3_text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 90%;
+    height: 50%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.73vw;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.29;
+    color:#2d3a4b;
+}
+
+#testimonial_3_stars {
+    position: absolute;
+    top: 92%;
+    left: 30%;
+    width: 40%;
+    height: 3.3%;
+}
+
+#path_157_ek2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /*height: 20px;*/
+}
+
+
+#quote {
+    /*top: 3268px;*/
+    position: relative;
+    margin-top: 4vh;
+    left: 0%;
+    width: 100%;
+    /*height: 324px;*/
+    padding-bottom: 56.25%;
+}
+
+#video_sample {
+    position: absolute;
+    top: 0%;
+    left: 9.6%;
+    width: 80.8%;
+    height: 80.8%;
+}
+
+
+#teaser_end {
+    /*top: 4611px;*/
+    position: relative;
+    margin-top: 5vh;
+    left: 0%;
+    width: 100%;
+    padding-bottom: 216.5333333333333%;
+}
+
+#content_ending {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 48.15%;
+}
+
+#group_2136 {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 75.2%;
+}
+
+#hole_dir_jetzt_kostenlos_das_cockpit_und_spare_wertvolle_zeit_ {
+    position: absolute;
+    top: 0px;
+    left: 16.7%;
+    width: 66.6%;
+    height: 26.87%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 5.87vw;
+    font-weight: 500;
+    line-height: 1.18;
+    text-align: center;
+    color: #0b3954;
+}
+
+#__p__die_genaue_berechnung_des_wareneinsatzes_in_der_gastronomie_ist_ausschlaggebend__um_ein_profitables_gesch_ft_zu_f_hren__kleinste_fehler_k_nnen_hierbei_unsummen_an_kosten_verursachen__das_cockpit_ist_eine_software__welche_gastronomen_genau_bei_dieser_kalkul {
+    position: absolute;
+    top: 33.67%;
+    left: 10%;
+    width: 80%;
+    height: 66.33%;
+    overflow: hidden;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 4.27vw;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.38;
+    color:#2d3a4b;
+}
+
+#make_your_life_easy_register {
+    position: absolute;
+    top: 85.42%;
+    left: 25.2%;
+    width: 49.6%;
+    height: 10%;
+}
+
+#illustration_end {
+    position: absolute;
+    top: 50%;
+    left: 2.9%;
+    width: 94.2%;
+    height: 23.4%;
+}
+
+#ipad_cockpit_2x {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    /*height: 393px;*/
+}
+
+#aktuell {
+    position: absolute;
+    top: 79.68%;
+    left: 13.47%;
+    width: 73.06%;
+    height: 2.34%;
+    overflow: hidden;
+    font-family: 'Rubik', sans-serif;
+    font-size: 4.27vw;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.38;
+    color: #2d3a4b;
+}
+
+#teaser_end_logo {
+    position: absolute;
+    top: 84.11%;
+    left: 19.33%;
+    width: 61.34%;
+}
+
+#teaser_end_logo_img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+#wenn_du {
+    position: absolute;
+    top: 90.15%;
+    left: 9.7%;
+    width: 80.6%;
+    height: 9.85%;
+    overflow: hidden;
+    font-family: 'Rubik', sans-serif;
+    font-size: 4.27vw;
+    font-weight: 400;
+    line-height: 1.38;
+    text-align: center;
+    color: #2d3a4b;
+}
+
+#support {
+    color: #00bfa5;
+}
+
+
+#footer {
+    /*top: 5337px;*/
+    position: relative;
+    margin-top: 1.6vh;
+    left: 0vw;
+    width: 100%;
+    /*height: 663px;*/
+    padding-bottom: 111.4666666666667%;
+}
+#footer_ek1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#base {
+    position: absolute;
+    top: 79.28333333333333%;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    /*height: 663px;*/
+}
+
+#links {
+    position: absolute;
+    top: 33%;
+    left: 51.2%;
+    width: 30%;
+    height: 30.2%;
+}
+
+#kontakt_agb_datenschutz_impressum {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+    font-size: 3.33vw;
+    font-weight: 500;
+    line-height: 2.5;
+    text-align: left;
+    color:#57616e;
+}
+
+#info {
+    position: absolute;
+    top: 88.5%;
+    left: 40%;
+    width: 20%;
+    height: 3.2%;
+}
+
+#___cockpit_2019 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif;;
+    font-size: 2.22vw;
+    font-weight: 400;
+    text-align: center;
+    color:#c0c3c9;
+}
+
+#hd_logo {
+    position: absolute;
+    top: 49%;
+    left: 9.6%;
+    width: 30%;
+    /*height: 73.15869140625px;*/
+}
+
+#cockpit {
+    position: absolute;
+    top: 31.8%;
+    left: 9.6%;
+    width: 26.6%;
+    height: 6.7%;
+}
+
+#footer_logo {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+
+#line_48 {
+    position: absolute;
+    top: 11.2%;
+    left: 0%;
+    width: 100%;
+    height: 1px;
+}
+
+
+#line_49 {
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    width: 100%;
+    height: 1px;
+}
+
+#batch_deutsch {
+    position: absolute;
+    top: 0%;
+    left: 37.6%;
+    width: 24.8%;
+    /*height: 144.1796875px;*/
+}
+
+
+/* Add your custom CSS here */

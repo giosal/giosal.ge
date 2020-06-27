@@ -1,0 +1,615 @@
+<!-- 
+/*
+ *	This content is generated from the PSD File Info.
+ *	(Alt+Shift+Ctrl+I).
+ *
+ *	@desc 		
+ *	@file 		index.php
+ *	@date 		0
+ *	@title 		Cockpit
+ *	@author 	George Salukvadze for OCIO Studio
+ *	@keywords
+ *	@generator 	Export Kit v1.2.8.xd
+ *
+*/
+ -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html" charset="utf-8"/>
+	<title>Cockpit</title>
+
+	<link rel="stylesheet" href="css/main.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Rubik:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<!-- Add your custom HEAD content here -->
+	<script>
+		$(document).ready(function(){
+			var owl1 = $('#teaser_2_carousel');
+			owl1.owlCarousel({
+				loop: true,
+				margin: 0,
+				nav: false,
+				// navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+				// slideBy:1,
+				dots       : false,
+				autoWidth: false,
+				autoplay: true,
+				autoplayTimeout:2500,
+				autoplayHoverPause:true,
+				singleItem: true,
+				responsive: {
+					0: {
+						items: 1
+					},
+					400: {
+						items: 1
+					},
+					720: {
+						items: 1
+					}
+				}
+			});
+			var timestamp_owlwheel = 0;
+			/*owl1.on('owlwheel', '.owl-stage', function (e) {
+				var d = new Date();
+				if((d.getTime() - timestamp_owlwheel) > 1000) { //minimum time difference
+
+					timestamp_owlwheel = d.getTime();
+
+					console.log(timestamp_owlwheel);
+					console.log(e.deltaY);
+					if (e.deltaY > 0) {
+						owl1.trigger('next.owl');
+					} else {
+						owl1.trigger('prev.owl');
+					}
+					e.preventDefault();
+				}
+			});*/
+			$('.nav1_1').click(function() {
+				owl1.trigger('to.owl.carousel', [0]);
+			});
+			$('.nav1_2').click(function() {
+				owl1.trigger('to.owl.carousel', [1]);
+			});
+		});
+		$(document).ready(function(){
+			var owl2 = $('#teaser_3_carousel');
+			owl2.owlCarousel({
+				loop: true,
+				margin: 5,
+				nav: false,
+				// navText: [$('.next'),$('.prev')],
+				dots: false,
+				autoWidth: false,
+				singleItem: true,
+				autoplay: true,
+				autoplayTimeout:2500,
+				autoplayHoverPause:true,
+				responsive: {
+					0: {
+						items: 1
+					},
+					400: {
+						items: 1
+					},
+					720: {
+						items: 1
+					}
+				}
+			});
+			var timestamp_owlwheel = 0;
+			/*owl2.on('owlwheel', '.owl-stage', function (e) {
+				var d = new Date();
+				if((d.getTime() - timestamp_owlwheel) > 1000) { //minimum time difference
+
+					timestamp_owlwheel = d.getTime();
+
+					console.log(timestamp_owlwheel);
+					console.log(e.deltaY);
+					if (e.deltaY > 0) {
+						owl2.trigger('next.owl');
+					} else {
+						owl2.trigger('prev.owl');
+					}
+					e.preventDefault();
+				}
+			});*/
+			$('.nav2_1').click(function() {
+				owl2.trigger('to.owl.carousel', [0]);
+			});
+			$('.nav2_2').click(function() {
+				owl2.trigger('to.owl.carousel', [1]);
+			});
+			$('.nav2_3').click(function() {
+				owl2.trigger('to.owl.carousel', [2]);
+			});
+			$('.nav2_4').click(function() {
+				owl2.trigger('to.owl.carousel', [3]);
+			});
+			$('.nav2_5').click(function() {
+				owl2.trigger('to.owl.carousel', [4]);
+			});
+		});
+	</script>
+</head>
+<body>
+<div id="content-container">
+	<div id="bg1"></div>
+	<div id="bg2"></div>
+	<div id="navbar">
+		<div id="rectangle_142">
+			<div id="language">
+				<span class="selected">De</span> <a id="select" href="en/index.html">En</a>
+			</div>
+			<div id="login">
+				<button class="header_login" onclick="window.open('https://cockpit.app.hd.digital/login')">Login</button>
+			</div>
+			<img src="img/cockpit_logo.svg" id="cockpit_logo"/>
+		</div>
+	</div>
+
+	<div id="hero_teaser">
+
+		<img src="img/hero_illustration.png" id="hero_illustration"/>
+		<div id="hero_text">
+			Die Auswertung deiner Betriebszahlen raubt dir wertvolle Zeit?
+		</div>
+		<div id="das_cockpit">Das Cockpit wertet alle Daten übersichtlich aus, damit du mehr Zeit für deine Kunden hast.</div>
+		<div id="first_register"><button class="register_button" onclick="window.open('https://cockpit.app.hd.digital/register')">Jetzt starten</button></div>
+		<img src="img/sponsor_logo.png" id="sponsor_logo"/>
+	</div>
+
+
+
+	<div id="teaser_2_withcockpit">
+
+		<div id="teaser_2_carousel" class="owl-carousel owl-theme">
+			<div id="nocockpit" class="item">
+				<div id="illustration_1___no_cockpit">
+					<div id="rectangle_193">
+						<img src="img/without_cockpit.png" id="mask_group_90" />
+					</div>
+				</div>
+				<div id="content___no_cockpit">
+					<div id="rectangle_196">
+						<span class="nav1">
+							<img src="img/line_55.png" class="nav1_1" id="n1_1"/>
+							<img src="img/line_56.png" class="nav1_2" id="n1_2"/>
+						</span>
+						<div id="teaser_2_title_1">
+							Herkömmliche Analyse deiner Kassendaten
+						</div>
+						<div id="group_1975">
+							<div id="teaser_2_text_1_1">
+								Langwierige Auswertung der Kassendaten
+							</div>
+							<div id="teaser_2_text_1_2">
+								Fehlende Umsatzprognose gefährdet Planungssicherheit
+							</div>
+							<div id="teaser_2_text_1_3">
+								Keine Einbeziehung von Wetter- und Eventdaten
+							</div>
+							<div id="teaser_2_text_1_4">
+								Komplizierte Vergleichbarkeit mehrerer Filialen
+							</div>
+						</div>
+						<div id="group_1988">
+							<div id="group_1981">
+								<img src="img/line_46.png" id="line_46" />
+								<img src="img/line_47.png" id="line_47" />
+							</div>
+							<div id="group_1982">
+								<img src="img/line_46_ek1.png" id="line_46_ek1" />
+								<img src="img/line_47_ek1.png" id="line_47_ek1" />
+							</div>
+							<div id="group_1983">
+								<img src="img/line_46_ek2.png" id="line_46_ek2" />
+								<img src="img/line_47_ek2.png" id="line_47_ek2" />
+							</div>
+							<div id="group_1984">
+								<img src="img/line_46_ek3.png" id="line_46_ek3" />
+								<img src="img/line_47_ek3.png" id="line_47_ek3" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="withcockpit" class="item">
+				<span id="illustration_1___cockpit">
+					<span id="rectangle_193_2">
+						<img src="img/with_cockpit.png" id="mask_group_90_2" />
+					</span>
+				</span>
+				<span id="content___cockpit">
+					<div id="rectangle_196_2">
+						<span class="nav1">
+							<img src="img/line_56.png" class="nav1_1" id="n1_3"/>
+							<img src="img/line_55.png" class="nav1_2" id="n1_4"/>
+						</span>
+						<div id="teaser_2_title_2">
+							Einfache und schnelle Analyse deiner Kassendaten mit dem Cockpit
+						</div>
+						<div id="group_1975_2">
+							<div id="teaser_2_text_2_1">
+								Intuitive Auswertung der Kassendaten
+							</div>
+							<div id="teaser_2_text_2_2">
+								Mehr Planungssicherheit durch Umsatzprognosen
+							</div>
+							<div id="teaser_2_text_2_3">
+								Einbeziehung von Wetter- und Eventdaten
+							</div>
+							<div id="teaser_2_text_2_4">
+								Mehrfilialfähigkeit, egal welches Kassensystem du verwendest
+							</div>
+						</div>
+						<div id="group_1988_2">
+							<div id="group_1981_2">
+								<img src="img/path_1477.png" id="line_46_2" />
+							</div>
+							<div id="group_1982_2">
+								<img src="img/path_1477.png" id="line_46_ek1_2" />
+							</div>
+							<div id="group_1983_2">
+								<img src="img/path_1477.png" id="line_46_ek2_2" />
+							</div>
+							<div id="group_1984_2">
+								<img src="img/path_1477.png" id="line_46_ek3_2" />
+							</div>
+						</div>
+					</div>
+				</span>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div id="cards">
+		<div id="card_1">
+			<div id="rectangle_1602">
+				<div id="group_838">
+					<div id="rectangle_223">
+						<img src="img/mask_group_74.png" id="mask_group_74" />
+					</div>
+				</div>
+				<div id="card_1_text">
+					24/7 Livedaten, egal wo du dich gerade aufhältst
+				</div>
+			</div>
+		</div>
+		<div id="card_2">
+			<div id="rectangle_1603">
+				<div id="group_839">
+					<div id="rectangle_223_ek4">
+						<img src="img/mask_group_92.png" id="mask_group_92" />
+					</div>
+				</div>
+				<div id="card_2_text">
+					Genau wissen, ab welchem Zeitpunkt du Geld verdienst
+				</div>
+			</div>
+		</div>
+
+		<div id="card_3">
+			<div id="rectangle_1604">
+				<div id="group_840">
+					<div id="rectangle_223_ek1">
+						<img src="img/mask_group_93.png" id="mask_group_93" />
+					</div>
+				</div>
+				<div id="card_3_text">
+					Vogelperspektive über alle deine Filialen
+				</div>
+			</div>
+		</div>
+		<div id="card_4">
+			<div id="rectangle_1605">
+				<div id="group_1901">
+					<div id="rectangle_223_ek2">
+						<img src="img/mask_group_94.png" id="mask_group_94" />
+					</div>
+				</div>
+				<div id="card_4_text">
+					Optimierung der Mitarbeiterperformance
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="teaser_3_feature_1">
+		<div id="teaser_3_carousel" class="owl-carousel owl-theme">
+			<div id="teaser_3_1">
+				<div id="content_feature_1">
+						<span class="nav2">
+							<img src="img/line_55.png" class="nav2_1 " id="n2_1"/>
+							<img src="img/line_56.png" class="nav2_2 " id="n2_2"/>
+							<img src="img/line_56.png" class="nav2_3 " id="n2_3"/>
+							<img src="img/line_56.png" class="nav2_4 " id="n2_4"/>
+							<img src="img/line_56.png" class="nav2_5" id="n2_5"/>
+						</span>
+					<div id="__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku">
+						Umsatzübersicht und Prognose – Agieren statt reagieren
+					</div>
+					<div id="behalte_text">
+						Die Umsatzübersicht zeigt dir auf Kategorie- und Artikelebene, wo die höchsten Einnahmen generiert werden. Die Umsatzprognose vereinfacht die Planung und erhöht die Planungssicherheit.
+					</div>
+					<div id="mehr_erfahren">
+						<a id="mehr_erfahren_link" href="https://cockpit.app.hd.digital/login">Mehr erfahren</a>
+					</div>
+				</div>
+				<div id="feature_1">
+					<div id="group_1954">
+							<img src="img/screen_1_2x.png" id="screen_1_2x" />
+					</div>
+				</div>
+			</div>
+			<div id="teaser_3_2">
+				<div id="content_feature_1_2">
+						<span class="nav2">
+							<img src="img/line_56.png" class="nav2_1 " id="n2_6"/>
+							<img src="img/line_55.png" class="nav2_2 " id="n2_7"/>
+							<img src="img/line_56.png" class="nav2_3 " id="n2_8"/>
+							<img src="img/line_56.png" class="nav2_4 " id="n2_9"/>
+							<img src="img/line_56.png" class="nav2_5" id="n2_10"/>
+						</span>
+					<div id="__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku_2">
+						Mehr Erfolg durch die Break-Even-Analyse
+					</div>
+					<div id="behalte_text_2">
+						Ab welchem Zeitpunkt sind deine Kosten gedeckt? Mit dieser Profitabilitätsübersicht verwaltest du deine Marge und steigerst deine Rentabilität. Vermeide böse Überraschungen am Monatsende.
+					</div>
+					<div id="mehr_erfahren_2">
+						<a id="mehr_erfahren_link_2" href="https://cockpit.app.hd.digital/login">Mehr erfahren</a>
+					</div>
+				</div>
+				<div id="feature_1_2">
+					<div id="group_1954_2">
+							<img src="img/screen_1_2x_2.png" id="screen_1_2x_2" />
+					</div>
+				</div>
+			</div>
+			<div id="teaser_3_3">
+				<div id="content_feature_1_3">
+						<span class="nav2">
+							<img src="img/line_56.png" class="nav2_1 " id="n2_11"/>
+							<img src="img/line_56.png" class="nav2_2 " id="n2_12"/>
+							<img src="img/line_55.png" class="nav2_3 " id="n2_13"/>
+							<img src="img/line_56.png" class="nav2_4 " id="n2_14"/>
+							<img src="img/line_56.png" class="nav2_5 " id="n2_15"/>
+						</span>
+					<div id="__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku_3">
+						Profitsteigerung und Mitarbeiterkontrolle
+					</div>
+					<div id="behalte_text_3">
+						Finde deine Leistungsträger und erhalte Einblicke in individuelle Stärken und Schwächen. Motiviere deine Mitarbeiter und steigere deinen Gesamtumsatz durch Zusatzverkäufe.
+					</div>
+					<div id="mehr_erfahren_3">
+						<a id="mehr_erfahren_link_3" href="https://cockpit.app.hd.digital/login">Mehr erfahren</a>
+					</div>
+				</div>
+				<div id="feature_1_3">
+					<div id="group_1954_3">
+							<img src="img/screen_1_2x_3.png" id="screen_1_2x_3" />
+					</div>
+				</div>
+			</div>
+			<div id="teaser_3_4">
+				<div id="content_feature_1_4">
+						<span class="nav2">
+							<img src="img/line_56.png" class="nav2_1 " id="n2_16"/>
+							<img src="img/line_56.png" class="nav2_2 " id="n2_17"/>
+							<img src="img/line_56.png" class="nav2_3 " id="n2_18"/>
+							<img src="img/line_55.png" class="nav2_4 " id="n2_19"/>
+							<img src="img/line_56.png" class="nav2_5 " id="n2_20"/>
+						</span>
+					<div id="__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku_4">
+						Renner und Penner Analyse
+					</div>
+					<div id="behalte_text_4">
+						Kombiniere Marge, Umsatz und Verkaufszahlen, um die Profitabilität deines Menüs zu optimieren. Finde heraus, mit welchen Artikeln du das meiste Geld verdienst.
+					</div>
+					<div id="mehr_erfahren_4">
+						<a id="mehr_erfahren_link_4" href="https://cockpit.app.hd.digital/login">Mehr erfahren</a>
+					</div>
+				</div>
+				<div id="feature_1_4">
+					<div id="group_1954_4">
+							<img src="img/screen_1_2x_4.png" id="screen_1_2x_4" />
+					</div>
+				</div>
+			</div>
+			<div id="teaser_3_5">
+				<div id="content_feature_1_5">
+						<span class="nav2">
+							<img src="img/line_56.png" class="nav2_4 " id="n2_21"/>
+							<img src="img/line_56.png" class="nav2_2 " id="n2_22"/>
+							<img src="img/line_56.png" class="nav2_3 " id="n2_23"/>
+							<img src="img/line_56.png" class="nav2_4 " id="n2_24"/>
+							<img src="img/line_55.png" class="nav2_1 " id="n2_25"/>
+						</span>
+					<div id="__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku_5">
+						Einfache Budgetplanung als Kontrollinstrument
+					</div>
+					<div id="behalte_text_5">
+						Definiere deine monatlichen und jährlichen Ziele und bleibe auf Kurs. Durch den Vergleich von Soll- und Ist-Werten hast du deine Unternehmensziele immer unter Kontrolle.
+					</div>
+					<div id="mehr_erfahren_5">
+						<a id="mehr_erfahren_link_5" href="https://cockpit.app.hd.digital/login">Mehr erfahren</a>
+					</div>
+				</div>
+				<div id="feature_1_5">
+					<div id="group_1954_5">
+							<img src="img/screen_1_2x_5.png" id="screen_1_2x_5" />
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+	</div>
+
+	<div id="quote">
+		<div id="quote_ek1">
+			<div id="__">
+				"
+			</div>
+		</div>
+		<div id="__p__cockpit_macht_die_mitarbeiter_und_mich_kreativer_und_erleichtert_die_kalkulation_">
+			Cockpit ist das Tool, das jeder Gastronom benötigt.
+		</div>
+		<div id="video_sample">
+			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/n6mD_s1N-PM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+
+	<div id="testimonials">
+		<div id="testimonial_1">
+			<div id="rectangle_1606">
+				<img src="img/mask_group_9.png" id="testimonial_1_image" />
+				<div id="group_669">
+					<div id="testimonial_1_name">Vijay Bunts</div>
+					<div id="testimonial_1_rest">RESTAURANT AMRIT</div>
+					<div id="testimonial_1_city">Berlin</div>
+				</div>
+				<div id="testimonial_1_text">
+					Durch das Cockpit wieß ich immer wie mein Geschäft läuft und kann direkt Entscheidungen treffen. Für mich ist die Auswertung der Mitarbeiter besonders interessant, da ich endlich transparente Einblicke in deren Leistung bekomme.
+				</div>
+				<div id="testimonial_1_stars">
+					<img src="img/stars.png" id="path_157" />
+				</div>
+			</div>
+		</div>
+		<div id="testimonial_2">
+			<div id="rectangle_1607">
+				<img src="img/mask_group_10.png" id="testimonial_2_image" />
+				<div id="group_796">
+					<div id="testimonial_2_name">René Dost</div>
+					<div id="testimonial_2_rest">REDO UNTERNEHMENSGRUPPE</div>
+					<div id="testimonial_2_city">Berlin, Cottbus, Frankfurt (Oder), Ketzin, Wildau, Potsdam</div>
+				</div>
+				<div id="testimonial_2_text">
+					Cockpit ist das Tool, das jeder Gastronom benötigt! Ich habe alle meine Betriebe auf einen Blick und kann schnell Entscheidungen treffen, da das Cockpit alle live Daten in übersichtliche Diagramme überträgt.
+				</div>
+				<div id="testimonial_2_stars">
+					<img src="img/stars.png" id="path_157_ek1" />
+				</div>
+			</div>
+		</div>
+		<div id="testimonial_3">
+			<div id="rectangle_1608">
+				<img src="img/mask_group_11.png" id="testimonial_3_image" />
+				<div id="group_801">
+					<div id="testimonial_3_name">Sergio De Stefano</div>
+					<div id="testimonial_3_rest">EXKi</div>
+					<div id="testimonial_3_city">Deutschland, Italien, Frankreich, Belgien, Niederlande</div>
+				</div>
+				<div id="testimonial_3_text">
+					Das Cockpit ist die perfekte Lösung, um die Verwaltung all unserer Restaurants zu zentralisieren. Dank der Benutzerfreundlichkeit und der detaillierten Informationen kann es von unseren einzelnen Restaurantmanagern leicht angepasst werden.
+				</div>
+				<div id="testimonial_3_stars">
+					<img src="img/stars.png" id="path_157_ek2" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="teaser_end">
+		<div id="content_ending">
+			<div id="group_2136">
+				<div id="hole_dir_jetzt_kostenlos_das_cockpit_und_spare_wertvolle_zeit_">
+					Hole dir jetzt kostenlos das Cockpit und spare wertvolle Zeit!
+				</div>
+				<div id="__p__die_genaue_berechnung_des_wareneinsatzes_in_der_gastronomie_ist_ausschlaggebend__um_ein_profitables_gesch_ft_zu_f_hren__kleinste_fehler_k_nnen_hierbei_unsummen_an_kosten_verursachen__das_cockpit_ist_eine_software__welche_gastronomen_genau_bei_dieser_kalkul">
+					Über eine Schnittstelle zu deinem Kassensystem werden deine Kassendaten in das Cockpit importiert. Die anschauliche Darstellung reduziert die Komplexität. Schaffe dir in kürzester Zeit einen Überblick über dein Unternehmen. So hast du mehr Zeit, dich auf das Wesentliche zu konzentrieren!
+				</div>
+			</div>
+			<div id="make_your_life_easy_register"><button class="register_button" id="make_your_life_easy_register_button" onclick="window.open('https://cockpit.app.hd.digital/register')">Jetzt starten</button></div>
+		</div>
+		<div id="illustration_end">
+			<img src="img/teaser_end.png" id="ipad_cockpit_2x" />
+		</div>
+		<div id="aktuell">
+			Aktuell kompatible Kassensysteme:
+		</div>
+		<div id="teaser_end_logo">
+			<img src="img/teaser_end_logo.png" id="teaser_end_logo_img"/>
+		</div>
+		<div id="wenn_du">
+			Wenn du ein anderes Kassensystem benutzt, kontaktiere uns über das <a id="support" href="/">Supportformular.</a>
+		</div>
+	</div>
+
+	<div id="footer">
+
+		<div id="footer_ek1">
+
+			<div id="links">
+				<div id="kontakt_agb_datenschutz_impressum">
+					<a href="https://cockpit.app.hd.digital/help-center/support">Kontakt</a><br/><a href="https://cockpit.app.hd.digital/terms?language=de">AGB</a><br/><a href="https://cockpit.app.hd.digital/privacy?language=de">Datenschutz</a><br/><a href="https://cockpit.app.hd.digital/imprint?language=de">Impressum</a>
+				</div>
+			</div>
+			<div id="info">
+				<div id="___cockpit_2019">
+					&copy; Cockpit 2019
+				</div>
+			</div>
+			<div id="cockpit">
+				<img src="img/cockpit_logo.svg" id="footer_logo"/>
+			</div>
+			<img src="img/line_48.png" id="line_48" />
+			<img src="img/line_49.png" id="line_49" />
+			<img src="img/owl.png" id="owl" />
+		</div>
+		<div id="batch_deutsch">
+			<img src="img/batch_deutsch.png" width="100%"/>
+		</div>
+		<div id="hd_logo">
+			<img src="img/hd_logo.png" width="100%"/>
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	(function(a,b){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4)))window.location=b})(navigator.userAgent||navigator.vendor||window.opera,'index_mobile.html');
+	window.onload = function() {
+		document.getElementById("teaser_2_carousel").style.height = window.innerWidth * 0.2979 + "px";
+		document.getElementById("teaser_3_carousel").style.height = window.innerWidth * 0.35 + "px";
+		// document.getElementById("nocockpit").style.width = "80vw";
+		console.log(window.innerWidth);
+	};
+	/*$(document).ready(function() {
+		var owlCar = $('.owl-carousel').owlCarousel({
+			loop: true,
+			margin: 0,
+			nav: true,
+			autoHeight:true,
+			responsive: {
+				0: {
+					items: 1
+				},
+				600: {
+					items: 1
+				},
+				1000: {
+					items: 1
+				}
+			}
+		});
+
+	});*/
+
+</script>
+</body>
+</html>

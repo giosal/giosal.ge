@@ -1,0 +1,2465 @@
+/*
+	@name cockpit_landingpage
+*/
+/* Only edit this if you know what you are doing! */
+
+body { margin: 0px; padding: 0px; font-family:'Rubik', 'Helvetica Neue', 'Helvetica', Arial, sans-serif; /*overflow-x:hidden;*/ }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+/*div { position: absolute; }*/
+
+#content-container { display: block; position: absolute; width: 100%; /*padding-bottom: 312.5%;*/ overflow: hidden;  }
+
+#_bg__cockpit_landingpage {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 6000px;
+	background:rgba(255,255,255,255);
+}
+
+a:visited {
+	color: #57616e;
+	text-decoration: none;
+}
+
+a:link {
+	color: #57616e;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+.register_button {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.8333333333333334vw;
+	font-weight: 400;
+	text-align: center;
+	color:#ffffff;
+	-ms-border-radius: 5.2vw;
+	-o-border-radius: 5.2vw;
+	-moz-border-radius: 5.2vw;
+	-webkit-border-radius: 5.2vw;
+	border-radius: 5.2vw;
+	-ms-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+	-o-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+	-moz-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
+	background-color: #ff5252;
+}
+
+.register_button:hover {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.8333333333333334vw;
+	font-weight: 400;
+	text-align: center;
+	color:#ffffff;
+	-ms-border-radius: 5.2vw;
+	-o-border-radius: 5.2vw;
+	-moz-border-radius: 5.2vw;
+	-webkit-border-radius: 5.2vw;
+	border-radius: 5.2vw;
+	-ms-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+	-o-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+	-moz-box-shadow:0 2px 2px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
+	background-color: #ff1744;
+}
+
+#navbar {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: hidden;
+	z-index: 2;
+	/*height: 80px;*/
+	padding-bottom: 4.17%;
+}
+
+#rectangle_142 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 99%;
+	/*padding-bottom: 4.17%;*/
+	-ms-box-shadow:0 2px 2px rgba(0, 0, 0, 0.1);
+	-o-box-shadow:0 2px 2px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow:0 2px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow:0 2px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+}
+
+#language {
+	position: absolute;
+	top: 35%;
+	left: 70%;
+	width: 5%;
+	height: 40%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.9523809523809523vw;
+	color: #00838f;
+}
+
+.selected {
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+#select {
+	color: #00838f;
+}
+
+#select:hover {
+	text-decoration: underline;
+}
+
+#login {
+	position: absolute;
+	top: 25%;
+	left: 75%;
+	width: 6.25vw;
+	height: 50%;
+}
+
+.header_login {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.9523809523809523vw;
+	font-weight: 700;
+	text-align: center;
+	color:#00838f;
+	-ms-border-radius: 5.2vw;
+	-o-border-radius: 5.2vw;
+	-moz-border-radius: 5.2vw;
+	-webkit-border-radius: 5.2vw;
+	border-radius: 5.2vw;
+	border: 2px solid #00838f;
+	background:rgba(255,255,255,0);
+}
+
+.header_login:hover {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.9523809523809523vw;
+	font-weight: 700;
+	text-align: center;
+	color: #ffffff;
+	-ms-border-radius: 5.2vw;
+	-o-border-radius: 5.2vw;
+	-moz-border-radius: 5.2vw;
+	-webkit-border-radius: 5.2vw;
+	border-radius: 5.2vw;
+	border: 2px solid #00838f;
+	background-color: #00838f;
+}
+
+#cockpit_logo {
+	position: absolute;
+	top: 0%;
+	left: 18.23%;
+	width: 11.51%;
+	/*height: 68.75%;*/
+}
+
+
+#hero_teaser {
+	position: relative;
+	/*top: -1.33%;*/
+	margin-top: 2%;
+	left: 0px;
+	width: 100%;
+	/*height: 1080px;*/
+	padding-bottom: 56.25%;
+	background-image: linear-gradient(180deg, #f5f9fc 0%, #ffffff 31%, #ffffff 66%, #f5f9fc 100%);
+}
+
+#hero_illustration {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 27.8%;
+	width: 78%;
+	/*z-index: -1;*/
+	/*height: 100%;*/
+}
+
+#hero_text {
+	position: absolute;
+	top: 19.26%;
+	left: 18.23%;
+	width: 30.3125%;
+	height: 17.3%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 2.5vw;
+	font-weight: 700;
+	line-height: 1.166666666666667;
+	text-align: left;
+	color: #0b3954;
+	z-index: 1;
+}
+
+#das_cockpit {
+	position: absolute;
+	top: 42.4%;
+	left: 18.23%;
+	width: 25.78125%;
+	height: 12.5%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.56vw;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: left;
+	color: #2d3a4b;
+	z-index: 1;
+}
+
+#first_register {
+	position: absolute;
+	top: 59.2%;
+	left: 18.23%;
+	width: 15%;
+	height: 6%;
+}
+
+#sponsor_logo {
+	position: absolute;
+	top: 87%;
+	left: 22.55%;
+	width: 54.9%;
+	/*height: 6.1%;*/
+}
+
+
+.owl-carousel {
+	/*height: 100% !important;*/
+	/*padding-bottom: 50.63856960408685%;*/
+	overflow: hidden;
+	width: 100%;
+	/*width: 80vw;*/
+}
+
+.owl-carousel .owl-item div {
+	display: block;
+	height: 100%;
+	/*width: auto;*/
+}
+
+.owl-carousel .owl-stage-outer {
+	height: 100%!important;
+	/*padding-bottom: 50.63856960408685%;*/
+}
+
+.owl-stage-outer * {
+	height:100%;
+	/*padding-bottom: 50.63856960408685%;*/
+}
+
+.owl-stage {
+	/*height: 100vh;*/
+}
+
+.slider {
+
+}
+#nocockpit {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	/*height: 100%;*/
+	/*padding-bottom: 5%;*/
+}
+
+#withcockpit {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	/*height: 100%;*/
+}
+
+#teaser_2_withcockpit {
+	/*top: 1176px;*/
+	position: relative;
+	left: 18.23%;
+	margin-top: 10vh;
+	width: 63.54%;
+	/*height: 793px;*/
+	/*padding-bottom: 7%;*/
+}
+
+#illustration_1___no_cockpit {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 47.04%;
+	/*height: 100%;*/
+}
+
+#rectangle_193 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	/*height: 100%;*/
+	background-color: #ffffff;
+}
+
+#mask_group_90 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: auto;
+	/*padding-top: 63%;*/
+}
+
+#content___no_cockpit {
+	position: absolute;
+	top: 2.1%;
+	left: 50.8%;
+	width: 49.2%;
+	height: 92.3%;
+}
+
+#rectangle_196 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(255,255,255,255);
+}
+
+#teaser_2_title_1 {
+	position: absolute;
+	top: 17.04%;
+	left: 4.5%;
+	width: 78.26%;
+	height: 17.61%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.88vw;
+	font-weight: 700;
+	line-height: 1.17;
+	text-align: left;
+	color: #0b3954;
+}
+
+
+#group_1975 {
+	position: absolute;
+	top: 38.63%;
+	left: 9.53%;
+	width: 84.11%;
+	height: 30.68%;
+}
+
+#teaser_2_text_1_1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 18.52%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.04vw;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	color: #2d3a4b;
+}
+
+#teaser_2_text_1_2 {
+	position: absolute;
+	top: 27.16%;
+	left: 0px;
+	width: 100%;
+	height: 18.52%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.04vw;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	color: #2d3a4b;
+}
+
+#teaser_2_text_1_3 {
+	position: absolute;
+	top: 54.32%;
+	left: 0px;
+	width: 100%;
+	height: 18.52%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.04vw;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	color: #2d3a4b;
+}
+
+#teaser_2_text_1_4 {
+	position: absolute;
+	top: 81.48%;
+	left: 0px;
+	width: 100%;
+	height: 18.52%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.04vw;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	color: #2d3a4b;
+}
+
+.owl-nav {
+	position: absolute;
+	top: 45%;
+	left: 0;
+	right: 0;
+}
+
+.owl-prev {
+	width: 1vw;
+	height: 10vh;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	display: block !important;
+	border:0px solid #f6f2e7;
+}
+
+.owl-next {
+	width: 1vw;
+	height: 10vh;
+	position: absolute;
+	top: 0%;
+	right: 1%;
+	display: block !important;
+	border:0px solid #f6f2e7;
+}
+.owl-prev i, .owl-next i {transform : scale(2,6); color: #bbb;}
+
+.nav1 {
+	position: absolute;
+	top: 9.5%;
+	left: 4.5%;
+	width: 14.4%;
+	height: 1%;
+}
+
+#n1_1 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 37%;
+}
+
+#n1_2 {
+	position: absolute;
+	top: 0%;
+	left: 63%;
+	width: 37%;
+	
+}
+
+#group_1988 {
+	position: absolute;
+	top: 41%;
+	left: 4.515%;
+	width: 2.84281%;
+	height: 27.65%;
+}
+
+#group_1981 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 9.589%;
+}
+
+#line_46 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#line_47 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#group_1982 {
+	position: absolute;
+	top: 28%;
+	left: 0px;
+	width: 100%;
+	height: 9.589%;
+}
+
+#line_46_ek1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#line_47_ek1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#group_1983 {
+	position: absolute;
+	top: 58%;
+	left: 0px;
+	width: 100%;
+	height: 9.589%;
+}
+
+#line_46_ek2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#line_47_ek2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#group_1984 {
+	position: absolute;
+	top: 88%;
+	left: 0px;
+	width: 100%;
+	height: 9.589%;
+}
+
+#line_46_ek3 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#line_47_ek3 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#illustration_1___cockpit {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 47.04%;
+	/*height: 100%;*/
+}
+
+#rectangle_193_2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(255,255,255,255);
+}
+
+#mask_group_90_2 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: auto;
+}
+
+#content___cockpit {
+	position: absolute;
+	top: 2.1%;
+	left: 50.8%;
+	width: 49.2%;
+	height: 92.3%;
+}
+
+#rectangle_196_2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	background:rgba(255,255,255,255);
+}
+
+#teaser_2_title_2 {
+	position: absolute;
+	top: 17.04%;
+	left: 4.5%;
+	width: 91%;
+	height: 24.62%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.88vw;
+	font-weight: 700;
+	line-height: 1.17;
+	text-align: left;
+	color: #0b3954;
+}
+
+#group_1975_2 {
+	position: absolute;
+	top: 44.7%;
+	left: 9.53%;
+	width: 84.11%;
+	height: 39.2%;
+}
+
+#teaser_2_text_2_1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 19.2%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.04vw;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	color: #2d3a4b;
+}
+
+#teaser_2_text_2_2 {
+	position: absolute;
+	top: 20.6%;
+	left: 0px;
+	width: 100%;
+	height: 19.2%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.04vw;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	color: #2d3a4b;
+}
+
+#teaser_2_text_2_3 {
+	position: absolute;
+	top: 41.2%;
+	left: 0px;
+	width: 100%;
+	height: 19.2%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.04vw;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	color: #2d3a4b;
+}
+
+#teaser_2_text_2_4 {
+	position: absolute;
+	top: 61.8%;
+	left: 0px;
+	width: 100%;
+	height: 36.23%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.04vw;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	color: #2d3a4b;
+}
+
+#n1_3 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 37%;
+	
+}
+
+#n1_4 {
+	position: absolute;
+	top: 0%;
+	left: 63%;
+	width: 37%;
+	
+}
+
+#group_1988_2 {
+	position: absolute;
+	top: 47%;
+	left: 4.515%;
+	width: 2.84281%;
+	height: 27.65%;
+}
+
+#group_1981_2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 9.589%;
+}
+
+#line_46_2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#group_1982_2 {
+	position: absolute;
+	top: 28%;
+	left: 0px;
+	width: 100%;
+	height: 9.589%;
+}
+
+#line_46_ek1_2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#group_1983_2 {
+	position: absolute;
+	top: 57%;
+	left: 0px;
+	width: 100%;
+	height: 9.589%;
+}
+
+#line_46_ek2_2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#group_1984_2 {
+	position: absolute;
+	top: 86%;
+	left: 0px;
+	width: 100%;
+	height: 9.589%;
+}
+
+#line_46_ek3_2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+
+#bg1 {
+	position: absolute;
+	top: 33%;
+	left: 0%;
+	width: 100%;
+	height: 17%;
+	background-image: linear-gradient(180deg, #f5f9fc 0%, #ffffff 31%, #ffffff 66%, #f5f9fc 100%);
+}
+
+#bg2 {
+	position: absolute;
+	top: 65.31%;
+	left: 0%;
+	width: 100%;
+	height: 18.82%;
+	background-image: linear-gradient(180deg, #f5f9fc 0%, #ffffff 31%, #ffffff 66%, #f5f9fc 100%);
+}
+
+
+#cards {
+	position: relative;
+	/*top: 2064px;*/
+	margin-top: 5vh;
+	left: 18.23%;
+	width: 63.54%;
+	/*height: 363.16796875px;*/
+	padding-bottom: 23.75%;
+}
+
+#card_1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 23.76%;
+	height: 100%;
+}
+
+#rectangle_1602 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	background:rgba(255,255,255,255);
+}
+
+#group_838 {
+	position: absolute;
+	top: 5.2%;
+	left: 10%;
+	width: 80%;
+	height: 52.6%;
+}
+
+#rectangle_223 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#mask_group_74 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	/*height: 167.05786132812px;*/
+}
+
+#card_1_text {
+	position: absolute;
+	top: 69.3%;
+	left: 25%;
+	width: 50%;
+	height: 20%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.94vw;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.22;
+	color: #2d3a4b;
+}
+
+#card_2 {
+	position: absolute;
+	top: 0px;
+	left: 25.41%;
+	width: 23.76%;
+	height: 100%;
+}
+
+#rectangle_1603 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	background:rgba(255,255,255,255);
+}
+
+#group_839 {
+	position: absolute;
+	top: 5.2%;
+	left: 10%;
+	width: 80%;
+	height: 52.6%;
+}
+
+#rectangle_223_ek4 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#mask_group_92 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	/*height: 100%;*/
+}
+
+#card_2_text {
+	position: absolute;
+	top: 69.3%;
+	left: 15%;
+	width: 70%;
+	height: 14.9%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.94vw;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.22;
+	color: #2d3a4b;
+}
+
+#card_3 {
+	position: absolute;
+	top: 0px;
+	left: 50.82%;
+	width: 23.76%;
+	height: 100%;
+}
+
+#rectangle_1604 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	background:rgba(255,255,255,255);
+}
+
+#group_840 {
+	position: absolute;
+	top: 5.2%;
+	left: 10%;
+	width: 80%;
+	height: 52.6%;
+}
+
+#rectangle_223_ek1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#mask_group_93 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	/*height: 100%;*/
+}
+
+#card_3_text {
+	position: absolute;
+	top: 69.3%;
+	left: 17.5%;
+	width: 65%;
+	height: 10.1%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.94vw;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.22;
+	color: #2d3a4b;
+}
+
+#card_4 {
+	position: absolute;
+	top: 0px;
+	left: 76.23%;
+	width: 23.76%;
+	height: 100%;
+}
+
+#rectangle_1605 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	background:rgba(255,255,255,255);
+}
+
+#group_1901 {
+	position: absolute;
+	top: 5.2%;
+	left: 10%;
+	width: 80%;
+	height: 52.6%;
+}
+
+#rectangle_223_ek2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#mask_group_94 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	/*height: 100%;*/
+}
+
+#card_4_text {
+	position: absolute;
+	top: 69.3%;
+	left: 15%;
+	width: 70%;
+	height: 10.1%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.94vw;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.22;
+	color: #2d3a4b;
+}
+
+
+#teaser_3_feature_1 {
+	position: relative;
+	/*top: 2064px;*/
+	margin-top: 10vh;
+	left: 18.23%;
+	width: 63.54%;
+	/*height: 363.16796875px;*/
+	/*padding-bottom: 23.75%;*/
+}
+
+#teaser_3_1 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 99%;
+	height: 100%;
+}
+
+#content_feature_1 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 36.35%;
+	height: 100%;
+}
+
+.nav2 {
+	position: absolute;
+	top: 7.15%;
+	left: 0.16%;
+	width: 50.45%;
+	height: 1%;
+	z-index: 99;
+}
+
+#n2_1 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 13.5%;
+	
+}
+
+#n2_2 {
+	position: absolute;
+	top: 0%;
+	left: 21.6%;
+	width: 13.5%;
+	
+}
+
+#n2_3 {
+	position: absolute;
+	top: 0%;
+	left: 43.2%;
+	width: 13.5%;
+	
+}
+
+#n2_4 {
+	position: absolute;
+	top: 0%;
+	left: 64.8%;
+	width: 13.5%;
+	
+}
+
+#n2_5 {
+	position: absolute;
+	top: 0%;
+	left: 86.4%;
+	width: 13.5%;
+
+}
+
+#__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku {
+	position: absolute;
+	top: 13.1%;
+	left: 0.16%;
+	width: 100%;
+	height: 20%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.88vw;
+	font-weight: 700;
+	text-align: left;
+	line-height: 1.17;
+	color: #0b3954;
+}
+
+#behalte_text {
+	position: absolute;
+	top: 38.1%;
+	left: 0.16%;
+	width: 100%;
+	height: 26.8%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.04vw;
+	font-weight: 400;
+	text-align: left;
+	line-height: 1.5;
+	color: #2d3a4b;
+}
+
+#mehr_erfahren_link {
+	color: #ff5252;
+}
+
+#mehr_erfahren_link_2 {
+	color: #ff5252;
+}
+#mehr_erfahren_link_3 {
+	color: #ff5252;
+}
+#mehr_erfahren_link_4 {
+	color: #ff5252;
+}
+
+#mehr_erfahren_link_5 {
+	color: #ff5252;
+}
+
+#mehr_erfahren {
+	position: absolute;
+	top: 67.56%;
+	left: 0.16%;
+	width: 30%;
+	height: 3.3%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.83vw;
+	font-weight: 500;
+	text-align: left;
+	color:#ff5252;
+}
+
+#feature_1 {
+	position: absolute;
+	top: 0%;
+	left: 42.6%;
+	width: 57.24%;
+	height: 71.43%;
+}
+
+#group_1954 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+#screen_1_2x {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+}
+
+#teaser_3_2 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 99%;
+	height: 100%;
+}
+
+#content_feature_1_2 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 36.35%;
+	height: 100%;
+}
+
+#n2_6 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 13.5%;
+	
+}
+
+#n2_7 {
+	position: absolute;
+	top: 0%;
+	left: 21.6%;
+	width: 13.5%;
+	
+}
+
+#n2_8 {
+	position: absolute;
+	top: 0%;
+	left: 43.2%;
+	width: 13.5%;
+	
+}
+
+#n2_9 {
+	position: absolute;
+	top: 0%;
+	left: 64.8%;
+	width: 13.5%;
+
+}
+
+#n2_10 {
+	position: absolute;
+	top: 0%;
+	left: 86.4%;
+	width: 13.5%;
+
+}
+
+#__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku_2 {
+	position: absolute;
+	top: 13.1%;
+	left: 0.16%;
+	width: 100%;
+	height: 20%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.88vw;
+	font-weight: 700;
+	text-align: left;
+	line-height: 1.17;
+	color: #0b3954;
+}
+
+#behalte_text_2 {
+	position: absolute;
+	top: 38.1%;
+	left: 0.16%;
+	width: 100%;
+	height: 26.8%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.04vw;
+	font-weight: 400;
+	text-align: left;
+	line-height: 1.5;
+	color: #2d3a4b;
+}
+
+#mehr_erfahren_2 {
+	position: absolute;
+	top: 67.56%;
+	left: 0.16%;
+	width: 30%;
+	height: 3.3%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.83vw;
+	font-weight: 500;
+	text-align: left;
+	color:#ff5252;
+}
+
+#feature_1_2 {
+	position: absolute;
+	top: 0%;
+	left: 42.6%;
+	width: 57.24%;
+	height: 71.43%;
+}
+
+#group_1954_2 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+#screen_1_2x_2 {
+	position: absolute;
+	top: -1%;
+	left: -2%;
+	width: 103%;
+	height: 104%;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+}
+
+#teaser_3_3 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 99%;
+	height: 100%;
+}
+
+#content_feature_1_3 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 36.35%;
+	height: 100%;
+}
+
+
+
+#n2_11 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 13.5%;
+	
+}
+
+#n2_12 {
+	position: absolute;
+	top: 0%;
+	left: 21.6%;
+	width: 13.5%;
+	
+}
+
+#n2_13 {
+	position: absolute;
+	top: 0%;
+	left: 43.2%;
+	width: 13.5%;
+
+}
+
+#n2_14 {
+	position: absolute;
+	top: 0%;
+	left: 64.8%;
+	width: 13.5%;
+
+}
+
+#n2_15 {
+	position: absolute;
+	top: 0%;
+	left: 86.4%;
+	width: 13.5%;
+
+}
+
+#__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku_3 {
+	position: absolute;
+	top: 13.1%;
+	left: 0.16%;
+	width: 100%;
+	height: 20%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.88vw;
+	font-weight: 700;
+	text-align: left;
+	line-height: 1.17;
+	color: #0b3954;
+}
+
+#behalte_text_3 {
+	position: absolute;
+	top: 38.1%;
+	left: 0.16%;
+	width: 100%;
+	height: 26.8%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.04vw;
+	font-weight: 400;
+	text-align: left;
+	line-height: 1.5;
+	color: #2d3a4b;
+}
+
+#mehr_erfahren_3 {
+	position: absolute;
+	top: 67.56%;
+	left: 0.16%;
+	width: 30%;
+	height: 3.3%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.83vw;
+	font-weight: 500;
+	text-align: left;
+	color:#ff5252;
+}
+
+#feature_1_3 {
+	position: absolute;
+	top: 0%;
+	left: 42.6%;
+	width: 57.24%;
+	height: 71.43%;
+}
+
+#group_1954_3 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+#screen_1_2x_3 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+}
+
+#teaser_3_4 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 99%;
+	height: 100%;
+}
+
+#content_feature_1_4 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 36.35%;
+	height: 100%;
+}
+
+#n2_16 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 13.5%;
+	
+}
+
+#n2_17 {
+	position: absolute;
+	top: 0%;
+	left: 21.6%;
+	width: 13.5%;
+
+}
+
+#n2_18 {
+	position: absolute;
+	top: 0%;
+	left: 43.2%;
+	width: 13.5%;
+
+}
+
+#n2_19 {
+	position: absolute;
+	top: 0%;
+	left: 64.8%;
+	width: 13.5%;
+
+}
+
+#n2_20 {
+	position: absolute;
+	top: 0%;
+	left: 86.4%;
+	width: 13.5%;
+
+}
+
+#__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku_4 {
+	position: absolute;
+	top: 13.1%;
+	left: 0.16%;
+	width: 100%;
+	height: 20%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.88vw;
+	font-weight: 700;
+	text-align: left;
+	line-height: 1.17;
+	color: #0b3954;
+}
+
+#behalte_text_4 {
+	position: absolute;
+	top: 38.1%;
+	left: 0.16%;
+	width: 100%;
+	height: 26.8%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.04vw;
+	font-weight: 400;
+	text-align: left;
+	line-height: 1.5;
+	color: #2d3a4b;
+}
+
+#mehr_erfahren_4 {
+	position: absolute;
+	top: 67.56%;
+	left: 0.16%;
+	width: 30%;
+	height: 3.3%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.83vw;
+	font-weight: 500;
+	text-align: left;
+	color:#ff5252;
+}
+
+#feature_1_4 {
+	position: absolute;
+	top: 0%;
+	left: 42.6%;
+	width: 57.24%;
+	height: 71.43%;
+}
+
+#group_1954_4 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+#screen_1_2x_4 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+}
+
+#teaser_3_5 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 99%;
+	height: 100%;
+}
+
+#content_feature_1_5 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 36.35%;
+	height: 100%;
+}
+
+#n2_21 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 13.5%;
+
+}
+
+#n2_22 {
+	position: absolute;
+	top: 0%;
+	left: 21.6%;
+	width: 13.5%;
+
+}
+
+#n2_23 {
+	position: absolute;
+	top: 0%;
+	left: 43.2%;
+	width: 13.5%;
+
+}
+
+#n2_24 {
+	position: absolute;
+	top: 0%;
+	left: 64.8%;
+	width: 13.5%;
+
+}
+
+#n2_25 {
+	position: absolute;
+	top: 0%;
+	left: 86.4%;
+	width: 13.5%;
+
+}
+
+#__p__behalte_den__berblick__ber_deinen_wareneinsatz__der_durchschnittliche_wareneinsatz_ist_eine_deiner_wichtigsten_kennzahlen_in_der_k_che__mit_dem_slider_kannst_du_deinen_wareneinsatz_zielgerichtet_anpassen_und_erkennst__bei_welchen_rezepten_du_noch_nachkalku_5 {
+	position: absolute;
+	top: 13.1%;
+	left: 0.16%;
+	width: 100%;
+	height: 20%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.88vw;
+	font-weight: 700;
+	text-align: left;
+	line-height: 1.17;
+	color: #0b3954;
+}
+
+#behalte_text_5 {
+	position: absolute;
+	top: 38.1%;
+	left: 0.16%;
+	width: 100%;
+	height: 26.8%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.04vw;
+	font-weight: 400;
+	text-align: left;
+	line-height: 1.5;
+	color: #2d3a4b;
+}
+
+#mehr_erfahren_5 {
+	position: absolute;
+	top: 67.56%;
+	left: 0.16%;
+	width: 30%;
+	height: 3.3%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.83vw;
+	font-weight: 500;
+	text-align: left;
+	color:#ff5252;
+}
+
+#feature_1_5 {
+	position: absolute;
+	top: 0%;
+	left: 42.6%;
+	width: 57.24%;
+	height: 71.43%;
+}
+
+#group_1954_5 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+#screen_1_2x_5 {
+	position: absolute;
+	top: -1%;
+	left: -2%;
+	width: 103%;
+	height: 104%;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+}
+
+
+#testimonials {
+	/*top: 3819px;*/
+	position: relative;
+	margin-top: 10vh;
+	left: 18.23%;
+	width: 63.77%;
+	/*height: 670px;*/
+	padding-bottom: 35.36458333333333%;
+}
+
+#testimonial_1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 32.24%;
+	height: 100%;
+}
+
+#rectangle_1606 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	background:rgba(255,255,255,255);
+}
+
+#testimonial_1_image {
+	position: absolute;
+	top: 6.9%;
+	left: 34.69%;
+	width: 30.87%;
+	/*height: 121px;*/
+}
+
+#group_669 {
+	position: absolute;
+	top: 29.01%;
+	left: 0%;
+	width: 100%;
+	height: 16.94%;
+}
+
+#testimonial_1_name {
+	position: absolute;
+	top: 0px;
+	left: 34.5%;
+	width: 31.015%;
+	height: 48.14%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.25vw;
+	font-weight: 500;
+	line-height: 1.25;
+	text-align: center;
+	color: #2d3a4b;
+}
+
+#testimonial_1_rest {
+	position: absolute;
+	top: 64.35%;
+	left: 0%;
+	width: 100%;
+	height: 16.52%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.73vw;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1.29;
+	color: #00838f;
+}
+
+#testimonial_1_city {
+	position: absolute;
+	top: 85.22%;
+	left: 0px;
+	width: 100%;
+	height: 14.78%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.63vw;
+	font-weight: 400;
+	text-align: center;
+	color: #707070;
+}
+
+#testimonial_1_text {
+	position: absolute;
+	top: 51.1%;
+	left: 10%;
+	width: 80%;
+	height: 34.9%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.94vw;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.67;
+	color: #2d3a4b;
+}
+
+#testimonial_1_stars {
+	position: absolute;
+	top: 92.93%;
+	left: 33.55%;
+	width: 32.9%;
+	height: 7.07%;
+}
+
+#path_157 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	/*height: 20px;*/
+}
+
+#testimonial_2 {
+	position: absolute;
+	top: 0px;
+	left: 33.88%;
+	width: 32.24%;
+	height: 100%;
+}
+
+#rectangle_1607 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	background:rgba(255,255,255,255);
+}
+
+#testimonial_2_image {
+	position: absolute;
+	top: 6.9%;
+	left: 34.69%;
+	width: 30.87%;
+	/*height: 121px;*/
+}
+
+#group_796 {
+	position: absolute;
+	top: 29.01%;
+	left: 0%;
+	width: 100%;
+	height: 16.94%;
+}
+
+#testimonial_2_name {
+	position: absolute;
+	top: 0px;
+	left: 37.625%;
+	width: 24.75%;
+	height: 48.14%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.25vw;
+	font-weight: 500;
+	text-align: center;
+	line-height: 1.25;
+	color:#2d3a4b;
+}
+
+#testimonial_2_rest {
+	position: absolute;
+	top: 64.35%;
+	left: 0%;
+	width: 100%;
+	height: 16.52%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.73vw;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1.29;
+	color: #00838f;
+}
+
+#testimonial_2_city {
+	position: absolute;
+	top: 85.22%;
+	left: 0px;
+	width: 100%;
+	height: 14.78%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.63vw;
+	font-weight: 400;
+	text-align: center;
+	color: #707070;
+}
+
+#testimonial_2_text {
+	position: absolute;
+	top: 51.1%;
+	left: 10%;
+	width: 80%;
+	height: 34.9%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.94vw;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.67;
+	color: #2d3a4b;
+}
+
+#testimonial_2_stars {
+	position: absolute;
+	top: 92.93%;
+	left: 33.55%;
+	width: 32.9%;
+	height: 7.07%;
+}
+
+#path_157_ek1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	/*height: 20px;*/
+}
+
+#testimonial_3 {
+	position: absolute;
+	top: 0px;
+	left: 67.76%;
+	width: 31%;
+	height: 100%;
+}
+
+#rectangle_1608 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-ms-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-o-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	-moz-box-shadow:0 3px 6px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	background:rgba(255,255,255,255);
+}
+
+#testimonial_3_image {
+	position: absolute;
+	top: 6.9%;
+	left: 34.69%;
+	width: 30.87%;
+	/*height: 121px;*/
+}
+
+#group_801 {
+	position: absolute;
+	top: 29.01%;
+	left: 0%;
+	width: 100%;
+	height: 16.94%;
+}
+
+#testimonial_3_name {
+	position: absolute;
+	top: 0px;
+	left: 34.5%;
+	width: 31.015%;
+	height: 48.14%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.25vw;
+	font-weight: 500;
+	text-align: center;
+	line-height: 1.25;
+	color:#2d3a4b;
+}
+
+#testimonial_3_rest {
+	position: absolute;
+	top: 64.35%;
+	left: 0%;
+	width: 100%;
+	height: 16.52%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.73vw;
+	font-weight: 700;
+	text-align: center;
+	line-height: 1.29;
+	color: #00838f;
+}
+
+#testimonial_3_city {
+	position: absolute;
+	top: 85.22%;
+	left: 0px;
+	width: 100%;
+	height: 14.78%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.63vw;
+	font-weight: 400;
+	text-align: center;
+	color: #707070;
+}
+
+#testimonial_3_text {
+	position: absolute;
+	top: 51.1%;
+	left: 10%;
+	width: 80%;
+	height: 34.9%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.94vw;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.67;
+	color: #2d3a4b;
+}
+
+#testimonial_3_stars {
+	position: absolute;
+	top: 92.93%;
+	left: 33.55%;
+	width: 32.9%;
+	height: 7.07%;
+}
+
+#path_157_ek2 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	/*height: 20px;*/
+}
+
+
+#quote {
+	/*top: 3268px;*/
+	position: relative;
+	margin-top: 3vh;
+	left: 18.23%;
+	width: 63.56%;
+	/*height: 324px;*/
+	padding-bottom: 20.36458333333333%;
+}
+
+#cockpit_macht_die_register {
+	position: absolute;
+	top: 60%;
+	left: 7.5%;
+	width: 13%;
+	height: 8%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.9523809523809523vw;
+	text-align: center;
+	color:#ffffff;
+}
+
+#__p__cockpit_macht_die_mitarbeiter_und_mich_kreativer_und_erleichtert_die_kalkulation_ {
+	position: absolute;
+	top: 19.2%;
+	left: 5%;
+	width: 30%;
+	height: 60%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 2.5vw;
+	font-weight: 300;
+	text-align: left;
+	line-height: 1.19;
+	color: #2d3a4b;
+}
+
+#quote_ek1 {
+	position: absolute;
+	top: 2.56%;
+	left: 0%;
+	width: 10%;
+	/*height: 133px;*/
+}
+
+#__ {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: 'Rubik', sans-serif;
+	font-style: italic;
+	font-size: 5.21vw;
+	text-align: left;
+	font-weight: 400;
+	color: #99e5db;
+}
+
+#video_sample {
+	position: absolute;
+	top: 0%;
+	left: 42.35%;
+	width: 57.65%;
+	height: 100%;
+}
+
+
+#teaser_end {
+	/*top: 4611px;*/
+	position: relative;
+	margin-top: 15vh;
+	left: 18.23%;
+	width: 63.77%;
+	padding-bottom: 55.78125%;
+}
+
+#content_ending {
+	position: absolute;
+	top: 0px;
+	left: 6%;
+	width: 88%;
+	height: 32.5%;
+}
+
+#group_2136 {
+	position: absolute;
+	top: 0px;
+	left: 10%;
+	width: 80%;
+	height: 75.86%;
+}
+
+#hole_dir_jetzt_kostenlos_das_cockpit_und_spare_wertvolle_zeit_ {
+	position: absolute;
+	top: 0px;
+	left: 2.5%;
+	width: 95%;
+	height: 43.56%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.88vw;
+	font-weight: 700;
+	line-height: 1.17;
+	text-align: center;
+	color: #0b3954;
+}
+
+#__p__die_genaue_berechnung_des_wareneinsatzes_in_der_gastronomie_ist_ausschlaggebend__um_ein_profitables_gesch_ft_zu_f_hren__kleinste_fehler_k_nnen_hierbei_unsummen_an_kosten_verursachen__das_cockpit_ist_eine_software__welche_gastronomen_genau_bei_dieser_kalkul {
+	position: absolute;
+	top: 42%;
+	left: 5%;
+	width: 90%;
+	height: 58%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.04vw;
+	font-weight: 400;
+	text-align: center;
+	line-height: 1.5;
+	color: #2d3a4b;
+}
+
+#make_your_life_easy_register {
+	position: absolute;
+	top: 82.76%;
+	left: 37.5%;
+	width: 25%;
+	height: 15%;
+}
+
+#illustration_end {
+	position: absolute;
+	top: 36%;
+	left: 20%;
+	width: 70%;
+	/*height: 55%;*/
+}
+
+#ipad_cockpit_2x {
+	position: absolute;
+	top: 0px;
+	left: 0%;
+	width: 100%;
+	/*height: 393px;*/
+}
+
+#aktuell {
+	position: absolute;
+	top: 82.07%;
+	left: 27.5%;
+	width: 45%;
+	height: 2.25%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.94vw;
+	font-weight: 500;
+	text-align: center;
+	line-height: 1.22;
+	color: #2d3a4b;
+}
+
+#teaser_end_logo {
+	position: absolute;
+	top: 86.55%;
+	left: 35%;
+	width: 30%;
+}
+
+#teaser_end_logo_img {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+}
+
+#wenn_du {
+	position: absolute;
+	top: 93.25%;
+	left: 28.29%;
+	width: 43.42%;
+	height: 6.75%;
+	overflow: hidden;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.04vw;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: center;
+	color: #2d3a4b;
+}
+
+#support {
+	color: #00bfa5;
+}
+
+
+#footer {
+	/*top: 5337px;*/
+	position: relative;
+	margin-top: 1.6vh;
+	left: 0vw;
+	width: 100%;
+	/*height: 663px;*/
+	padding-bottom: 26.77083333333333%;
+}
+#footer_ek1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#base {
+	position: absolute;
+	top: 79.28333333333333%;
+	left: 0px;
+	width: 100%;
+	z-index: -1;
+	/*height: 663px;*/
+}
+
+#links {
+	position: absolute;
+	top: 30%;
+	left: 37%;
+	width: 20%;
+	height: 21.2%;
+}
+
+#kontakt_agb_datenschutz_impressum {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.8333333333333334vw;
+	font-weight: 500;
+	line-height: 2.5;
+	text-align: left;
+	color:#57616e;
+}
+
+#info {
+	position: absolute;
+	top: 88.5%;
+	left: 23.75%;
+	width: 12%;
+	height: 3.2%;
+}
+
+#___cockpit_2019 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	font-family: 'Rubik', sans-serif;;
+	font-size: 0.8333333333333334vw;
+	font-weight: 400;
+	text-align: center;
+	color:#c0c3c9;
+}
+
+#hd_logo {
+	position: absolute;
+	top: 50%;
+	left: 23.1%;
+	width: 6%;
+	/*height: 73.15869140625px;*/
+}
+
+#cockpit {
+	position: absolute;
+	top: 30%;
+	left: 23.1%;
+	width: 7.8%;
+	height: 8.3%;
+}
+
+#footer_logo {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+}
+
+
+#line_48 {
+	position: absolute;
+	top: 14.1%;
+	left: 18.3%;
+	width: 63.3%;
+	height: 1px;
+}
+
+
+#line_49 {
+	position: absolute;
+	top: 82.2%;
+	left: 18.3%;
+	width: 63.3%;
+	height: 1px;
+}
+
+
+#owl {
+	position: absolute;
+	top: 30%;
+	left: 65.5%;
+	width: 12.5%;
+	/*height: 159.66455078125px;*/
+}
+
+#batch_deutsch {
+	position: absolute;
+	top: 0%;
+	left: 46.25%;
+	width: 7.5%;
+	/*height: 144.1796875px;*/
+}
+
+
+
+/* Add your custom CSS here */
