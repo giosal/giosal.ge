@@ -1,0 +1,2 @@
+[05-May-2019 15:28:18 UTC] PHP Warning:  require_once(dependencies/simplexlsx.class.php): failed to open stream: No such file or directory in /home/giosalge/public_html/sfi/php/readExcel.php on line 5
+[05-May-2019 15:28:18 UTC] PHP Fatal error:  require_once(): Failed opening required 'dependencies/simplexlsx.class.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/giosalge/public_html/sfi/php/readExcel.php on line 5
