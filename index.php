@@ -853,7 +853,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
             <div class="container">
 
-                <h1 class="pull-left">&copy; 2019 George Salukvadze. Hosting by <a href="http://bill.proserv.ge/aff.php?aff=282"><u>ProServ.ge</u></a>&nbsp;<!-- TrustBox widget - Micro Review Count --> <span class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5cfecabbd322f10001d35097" data-style-height="24px" data-style-width="75%" data-theme="dark"> <a href="https://www.trustpilot.com/review/giosal.ge" target="_blank" rel="noopener">Trustpilot</a><!-- End TrustBox widget --></span></h1>
+                <h1 class="pull-left">&copy; 2019 George Salukvadze. Hosting by <a href="https://scaleway.com"><u>Scaleway</u></a>&nbsp;<!-- TrustBox widget - Micro Review Count --> <span class="trustpilot-widget" data-locale="en-US" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5cfecabbd322f10001d35097" data-style-height="24px" data-style-width="75%" data-theme="dark"> <a href="https://www.trustpilot.com/review/giosal.ge" target="_blank" rel="noopener">Trustpilot</a><!-- End TrustBox widget --></span></h1>
 
 
                 <a href="#top"><i class="pull-right fa fa-long-arrow-up"></i></a>
