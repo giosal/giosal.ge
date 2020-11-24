@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="LATLNTIC" uploadOnCheckin="2e467916-4a9d-4004-8c0f-3097496ea763">
+  <component name="PublishConfigData" serverName="giosal.ge" uploadOnCheckin="2e467916-4a9d-4004-8c0f-3097496ea763">
     <serverData>
-      <paths name="LATLNTIC">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="giosal.ge_main">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="giosal.ge_scaleway">
+      <paths name="giosal.ge">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />

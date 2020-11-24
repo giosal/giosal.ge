@@ -108,7 +108,7 @@ a:focus {
 
 /*css for jumbotron*/
 .bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/bg.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/bg.webp);
     height: 550px;
     position: relative;
     background-size: cover;
@@ -213,7 +213,7 @@ a:focus {
 
 /*css for facts*/
 .facts {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/facts.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/facts.webp);
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
@@ -315,7 +315,7 @@ a:focus {
 
 /*css for clients*/
 .clients {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/clients.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/clients.webp);
     position: relative;
     background-size: cover;
     background-position: 50% 50%;

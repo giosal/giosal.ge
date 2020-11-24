@@ -57,24 +57,10 @@
         <!--Font-->
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,700,300' rel='stylesheet' type='text/css'>
 
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({
-                google_ad_client: "ca-pub-4875947994894405",
-                enable_page_level_ads: true
-            });
-        </script>
+
         <meta name="google-site-verification" content="3EEz44Xajvdyd8viQc9m_7MRcC2UE_3DER86_Qnk9qI" />
 
-        <!-- Global site tag (gtag.js) - Google Ads: 1032379769 -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1032379769"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
 
-            gtag('config', 'AW-1032379769');
-        </script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-9048355-7"></script>
@@ -86,42 +72,11 @@
             gtag('config', 'UA-9048355-7');
         </script>
 
-        <!-- Event snippet for pageview conversion page -->
-        <script>
-            gtag('event', 'conversion', {'send_to': 'AW-1032379769/Fp7jCILekaYBEPm6o-wD'});
-        </script>
-        <!-- Event snippet for lead conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-        <script>
-            function gtag_report_conversion(url) {
-                var callback = function () {
-                    if (typeof(url) != 'undefined') {
-                        window.location = url;
-                    }
-                };
-                gtag('event', 'conversion', {
-                    'send_to': 'AW-1032379769/rXSlCO386aYBEPm6o-wD',
-                    'event_callback': callback
-                });
-                return false;
-            }
-        </script>
+
 
         <!-- TrustBox script -->
         <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
         <!-- End TrustBox script -->
-
-        <!-- Hotjar Tracking Code for giosal.ge -->
-        <script>
-            (function(h,o,t,j,a,r){
-                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                h._hjSettings={hjid:810002,hjsv:6};
-                a=o.getElementsByTagName('head')[0];
-                r=o.createElement('script');r.async=1;
-                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>
 
     </head>
 
@@ -172,21 +127,6 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
         <!--background-->
         <div class="bg" id="top" width="100%" height="1280px">
-            <div id="airquality">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- giosal -->
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-4875947994894405"
-                     data-ad-slot="9888375227"
-                     data-ad-format="auto"
-                     data-full-width-responsive="true"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
-
-
             <div class="container">
                 <h1>
                     Hello, I'm George Salukvadze
@@ -718,19 +658,19 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 
-                         <a href="img/atlas_es_screen.webp" data-lightbox=”group”><img data-src="img/atlas_es_screen.webp" class="img-responsive center-block lazyload" width="500px" height="300px"/></a>
+                         <a href="images/atlas_es_screen.webp" data-lightbox=”group”><img data-src="img/atlas_es_screen.webp" class="img-responsive center-block lazyload" width="500px" height="300px"/></a>
 
                      </div>
 
                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 
-                        <a href="img/cockpit_screen.webp" data-lightbox=”group”><img data-src="img/cockpit_screen.webp" class="img-responsive center-block lazyload" width="500px" height="300px"/></a>
+                        <a href="images/cockpit_screen.webp" data-lightbox=”group”><img data-src="img/cockpit_screen.webp" class="img-responsive center-block lazyload" width="500px" height="300px"/></a>
 
                      </div>
 
                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 
-                         <a href="img/menukit_screen.webp" data-lightbox=”group”><img data-src="img/menukit_screen.webp" class="img-responsive center-block lazyload" width="500px" height="300px"/></a>
+                         <a href="images/menukit_screen.webp" data-lightbox=”group”><img data-src="img/menukit_screen.webp" class="img-responsive center-block lazyload" width="500px" height="300px"/></a>
 
                      </div>
 
@@ -740,19 +680,19 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 
-                         <a href="img/np02_screen.webp" data-lightbox=”group”><img data-src="img/np02_screen.webp" class="img-responsive center-block lazyload" width="500px" height="300px"/></a>
+                         <a href="images/np02_screen.webp" data-lightbox=”group”><img data-src="img/np02_screen.webp" class="img-responsive center-block lazyload" width="500px" height="300px"/></a>
 
                      </div>
 
                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 
-                        <a href="img/np04_screen.webp" data-lightbox=”group”><img data-src="img/np04_screen.webp" class="img-responsive center-block lazyload" width="500px" height="300px"/></a>
+                        <a href="images/np04_screen.webp" data-lightbox=”group”><img data-src="img/np04_screen.webp" class="img-responsive center-block lazyload" width="500px" height="300px"/></a>
 
                      </div>
 
                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 
-                         <a href="img/blank.webp" data-lightbox=”group”><img data-src="img/blank.webp" class="img-responsive center-block lazyload" width="500px" height="300px"/></a>
+                         <a href="images/blank.webp" data-lightbox=”group”><img data-src="img/blank.webp" class="img-responsive center-block lazyload" width="500px" height="300px"/></a>
 
                      </div>
 

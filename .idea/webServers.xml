@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4302b9f1-61ad-4575-afe3-65b97efdeef4" name="giosal.ge" url="http://giosal.ge">
+        <fileTransfer rootFolder="/var/www/giosal.ge" accessType="SFTP" host="51.15.209.5" port="22" sshConfigId="7bc6e385-8f3b-47b1-a2f9-1fa6d5dfe16f" sshConfig="giosal@51.15.209.5:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
