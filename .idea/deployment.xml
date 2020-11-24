@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="giosal.ge" uploadOnCheckin="2e467916-4a9d-4004-8c0f-3097496ea763">
+  <component name="PublishConfigData" serverName="giosal.ge" uploadOnCheckin="4302b9f1-61ad-4575-afe3-65b97efdeef4">
     <serverData>
       <paths name="giosal.ge">
         <serverdata>
@@ -10,6 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="giosal.ge_scaleway" />
+    <option name="myUploadOnCheckinName" value="giosal.ge" />
   </component>
 </project>

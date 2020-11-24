@@ -2,6 +2,8 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^giosal.ge$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.giosal.ge$
 RewriteRule ^/?$ "https\:\/\/giosal\.ge\/" [R=301,L]
+RedirectPermanent https://giosal.ge https://giosal.ge/index.html
+RedirectPermanent index.php https://giosal.ge/index.html
 RedirectPermanent en/index.php https://giosal.ge/index.html
 RedirectPermanent blog/2015/11/ https://giosal.ge/blog
 RedirectPermanent blog/2015/11/15/ https://giosal.ge/blog
