@@ -11,7 +11,7 @@ a{
 	color:#232323;
 }
 a:hover{
-	color:#9c27b0;
+	color:#0000ff;
 }
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn.active.focus {
     outline: none;
@@ -39,7 +39,7 @@ a:hover{
     line-height: 28px
 }
 .sidebarWrapper {
-	background: #9c27b0;
+	background: #0000ff;
 	text-align: center;
 	height: 100%;
 }
@@ -102,7 +102,7 @@ li {
     margin-bottom: 50px;
 }
 .section-title h2::after {
-   background: #9c27b0 none repeat scroll 0 0;
+   background: #0000ff none repeat scroll 0 0;
     content: "";
     display: table;
     height: 2px;
@@ -202,7 +202,7 @@ li {
     transition: all 0.1s linear 0s;
 }
 .sidebar .nav li a:hover, .sidebar .nav li.active a {
-    color: #9c27b0;
+    color: #0000ff;
     opacity: unset;
 }
 
@@ -265,7 +265,7 @@ li {
     margin: 0;
 }
 .progress-bar {
-    background: #9c27b0 none repeat scroll 0 0;
+    background: #0000ff none repeat scroll 0 0;
 }
 .services-background {
     margin-bottom: -30px;
@@ -337,7 +337,7 @@ li {
     width: 100%;
 }
 .imageHover {
-    background: rgba(156, 39, 176, 0.9) none repeat scroll 0 0;
+    background: rgba(0, 0, 255, 0.9) none repeat scroll 0 0;
     color: #fff;
     height: 100%;
     left: 0;
@@ -406,7 +406,7 @@ button.mfp-close:hover {
     background: #fff none repeat scroll 0 0;
     border-radius: 50%;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    color: #9c27b0;
+    color: #0000ff;
     float: left;
     font-size: 29px;
     height: 100px;
