@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="giosal.ge" uploadOnCheckin="4302b9f1-61ad-4575-afe3-65b97efdeef4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="giosal.ge" uploadOnCheckin="4302b9f1-61ad-4575-afe3-65b97efdeef4" autoUploadExternalChanges="true">
     <serverData>
       <paths name="giosal.ge">
         <serverdata>
@@ -11,5 +11,6 @@
       </paths>
     </serverData>
     <option name="myUploadOnCheckinName" value="giosal.ge" />
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
