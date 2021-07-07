@@ -24,14 +24,6 @@
             <td id="country"></td>
         </tr>
         <tr>
-            <td>Weather:</td>
-            <td id="shortWeather"></td>
-        </tr>
-        <tr>
-            <td>Detailed weather description:</td>
-            <td id="detailedWeather"></td>
-        </tr>
-        <tr>
             <td>Temperature:</td>
             <td id="temp"></td>
         </tr>
@@ -44,20 +36,12 @@
             <td id="humidity"></td>
         </tr>
         <tr>
-            <td>Pressure:</td>
-            <td id="pressure"></td>
+            <td>Sunrise time:</td>
+            <td id="sunrise"></td>
         </tr>
         <tr>
-            <td>Wind speed:</td>
-            <td id="windSpeed"></td>
-        </tr>
-        <tr>
-            <td>Wind gusts:</td>
-            <td id="windGusts"></td>
-        </tr>
-        <tr>
-            <td>Wind direction:</td>
-            <td id="windDirection"></td>
+            <td>Sunset time:</td>
+            <td id="sunset"></td>
         </tr>
     </table>
 </div>
@@ -80,15 +64,12 @@
                 console.log(data);
                 $("#name").html(data["name"]);
                 $("#country").html(data["sys"]["country"]);
-                $("#shortWeather").html(data["weather"][0]["main"]);
-                $("#detailedWeather").html(data["weather"][0]["description"]);
                 $("#temp").html(data["main"]["temp"] + " &deg;C");
-                $("#feelsLike").html(data["main"]["feels_like"] + " &deg;C");
                 $("#humidity").html(data["main"]["humidity"] + " %");
-                $("#pressure").html(data["main"]["pressure"] + " mbar");
-                $("#windSpeed").html(data["wind"]["speed"] + " m/s");
-                $("#windGusts").html(data["wind"]["gust"] + " m/s");
-                $("#windDirection").html(data["wind"]["deg"] + " &deg;");
+                const sunrise = new Date(data["sys"]["sunrise"] * 1000);
+                const sunset = new Date(data["sys"]["sunset"]);
+                $("#sunrise").html(sunrise.toLocaleTimeString());
+                $("#sunset").html(sunset.toLocaleTimeString());
             }
         })
     })
