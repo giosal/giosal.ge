@@ -2,7 +2,8 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="51.15.209.5" id="7bc6e385-8f3b-47b1-a2f9-1fa6d5dfe16f" port="22" nameFormat="DESCRIPTIVE" username="giosal" />
+      <sshConfig authType="PASSWORD" host="51.15.209.5" id="7bc6e385-8f3b-47b1-a2f9-1fa6d5dfe16f" port="22" nameFormat="DESCRIPTIVE" username="giosal@giosal.ge" />
+      <sshConfig authType="PASSWORD" host="ftp.giosal.ge" id="e3df039a-4a0d-4c01-9098-3f491a4bd0a8" port="21" nameFormat="DESCRIPTIVE" username="giosal@giosal.ge" />
     </configs>
   </component>
 </project>
